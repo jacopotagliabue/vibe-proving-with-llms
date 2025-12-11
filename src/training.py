@@ -173,12 +173,10 @@ def parse_response(response_text: str) -> tuple[str | None, str | None]:
         Tuple of (reasoning, proof) - both None if structure is invalid.
     """
     # Find ALL reasoning and proof matches, take the last valid ones
-    reasoning_matches = list(re.finditer(
-        r"<reasoning>(.*?)</reasoning>", response_text, re.DOTALL
-    ))
-    proof_matches = list(re.finditer(
-        r"<proof>(.*?)</proof>", response_text, re.DOTALL
-    ))
+    reasoning_matches = list(
+        re.finditer(r"<reasoning>(.*?)</reasoning>", response_text, re.DOTALL)
+    )
+    proof_matches = list(re.finditer(r"<proof>(.*?)</proof>", response_text, re.DOTALL))
 
     if reasoning_matches and proof_matches:
         # Take the last match of each (the final "real" output)

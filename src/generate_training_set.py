@@ -323,7 +323,9 @@ def print_step_distribution(examples: list[dict]) -> None:
     print("\nStep distribution:")
     for n_steps in sorted(step_counts.keys()):
         count = step_counts[n_steps]
-        print(f"  {n_steps} steps: {count} examples ({100 * count / len(examples):.1f}%)")
+        print(
+            f"  {n_steps} steps: {count} examples ({100 * count / len(examples):.1f}%)"
+        )
 
 
 def generate_batch(
@@ -406,7 +408,7 @@ def main(
 
     return unique_examples
 
-    
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Generate training dataset for proof generation"
