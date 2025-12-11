@@ -1,6 +1,6 @@
 # Understanding Vibe Proving: build your own LLM + verifier stack
 
-Playground for the TDS series on LLMs and proofs: train your own LLMs to generate formally verifiable proofs.
+Playground for the TDS series on LLMs and proofs: train your own LLMs to generate formally verifiable proofs, i.e. ["vibe proving"](https://x.com/vladtenev/status/1994922827208663383?s=20).
 
 ## Overview
 
