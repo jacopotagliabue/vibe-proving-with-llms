@@ -4,7 +4,15 @@ Playground for the TDS series on LLMs and proofs: train your own LLMs to generat
 
 ## Overview
 
-This repository contains code and examples for building a proof checker and training a proof generator from scratch, as described in the TDS series on LLMs and proofs (link TBC). 
+This repository contains code and examples for building a proof checker and training a proof generator from scratch, as described in the TDS series on LLMs and proofs (link TBC).
+
+![RL Training Loop](img/rl_loop.jpg)
+
+The diagram illustrates how all the main pieces of the project come together: 
+
+- **Proof checker** (which we build first, see below) verifies the correctness of arbitrary proofs in our "reasoning language", whether human-written or LLM-generated;
+- **Dataset creation** (left), where manually curated and LLM-generated proofs (first validated by the proof checker, in blue) are combined into a training dataset for reinforcement learning;
+- **RL loop** (right), where a model learns to generate proofs by receiving binary reward from the proof checker.
 
 Acknowledgements: the code in this repository has been generated with the help of Claude Code ("Resistance is futile"). Personally, this repo is the first real attempt I made at using LLMs to write the majority of the code as a first stab, and then intervening by cleaning things up, simplifying, and mostly adding / refining tests to build confidence in the overall correctness of the implementation.
 
@@ -50,10 +58,10 @@ __
 
 Key elements:
 
-- **Formulas** use Python boolean syntax: `and`, `or`, `not`, with uppercase variables (`A`, `B`, `C`, etc.) and parentheses for grouping, e.g. `(A and B) or C`
+- **Formulas** use Python boolean syntax: `and`, `or`, `not`, with uppercase variables (`A`, `B`, `C`, etc.) and parentheses for grouping, e.g., `(A and B) or C`
 - **`~`** represents contradiction (always false)
 - **`_`** separates premises (above) from derived lines (below)
-- **Line references** in parentheses justify each derived step, e.g. `(1,2)` means "follows from lines 1 and 2"
+- **Line references** in parentheses justify each derived step, e.g., `(1,2)` means "follows from lines 1 and 2"
 - **Subproofs** are indented with `|` (one per nesting level), used for indirect proof and or-elimination
 - **`__`** explicitly closes a subproof
 
@@ -70,7 +78,7 @@ Note that we showcase only a few simple proofs, mostly to highlight how the proo
 
 ### Run the tests
 
-To run the full suite of tests for the proof checker, run:
+To run the full test suite for the proof checker:
 
 ```bash
 cd src
@@ -92,7 +100,7 @@ For all the available options, check the `generate_training_set.py` script.
 
 ### Running the training job
 
-The training uses reinforcement learning (via [Tinker](https://tinker-docs.thinkingmachines.ai/)) to fine-tune an LLM to generate valid proofs. The proof checker provides binary reward: 1.0 for valid proofs, 0.0 for invalid ones. Make sure to first generate the training set: by default, the final training set is the union of `training_data.jsonl` and three manually curated files, `forallx.jsonl`, `lpl_1.jsonl` and `lpl_2.jsonl`, corresponding to exercises in popular textbooks ([forallx](https://forallx.openlogicproject.org/) and [Language, Proof and Logic](https://www.amazon.com/Language-Proof-Logic-David-Barker-Plummer/dp/1575866323)).
+The training uses reinforcement learning (via [Tinker](https://tinker-docs.thinkingmachines.ai/)) to fine-tune an LLM to generate valid proofs. The proof checker provides binary reward: 1.0 for valid proofs, 0.0 for invalid ones. Make sure to first generate the training set: by default, the final training set is the union of `training_data.jsonl` and three manually curated files, `forallx.jsonl`, `lpl_1.jsonl`, and `lpl_2.jsonl`, corresponding to exercises in popular textbooks ([forallx](https://forallx.openlogicproject.org/) and [Language, Proof and Logic](https://www.amazon.com/Language-Proof-Logic-David-Barker-Plummer/dp/1575866323)).
 
 ```bash
 cd src
