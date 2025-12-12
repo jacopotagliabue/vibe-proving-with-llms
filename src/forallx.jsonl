@@ -1,0 +1,27 @@
+{"premises": ["not J or not J"], "conclusion": "not J"}
+{"premises": ["not Q or (Q and not Q)"], "conclusion": "not Q"}
+{"premises": ["not A or (not B or C)"], "conclusion": "not (A and B) or C"}
+{"premises": ["K and L"], "conclusion": "(not K or L) and (not L or K)"}
+{"premises": ["(C and D) or E"], "conclusion": "E or D"}
+{"premises": ["(not A or B) and (not B or A)", "(not B or C) and (not C or B)"], "conclusion": "(not A or C) and (not C or A)"}
+{"premises": ["not not F or G", "not F or H"], "conclusion": "G or H"}
+{"premises": ["(Z and K) or (K and M)", "not K or D"], "conclusion": "D"}
+{"premises": ["P and (Q or R)", "not P or not R"], "conclusion": "Q or E"}
+{"premises": ["(not S or T) and (not T or S)"], "conclusion": "(not S or (T or S)) and (not (T or S) or S)"}
+{"premises": ["not (not P or Q)"], "conclusion": "not Q"}
+{"premises": ["not (not P or Q)"], "conclusion": "P"}
+{"premises": ["not A or B", "not A or C"], "conclusion": "not A or (B and C)"}
+{"premises": ["not (A and B) or C"], "conclusion": "not A or (not B or C)"}
+{"premises": ["not A or (not B or C)"], "conclusion": "not (not A or B) or (not A or C)"}
+{"premises": ["A or (B and C)"], "conclusion": "(A or B) and (A or C)"}
+{"premises": ["(A and B) or (A and C)"], "conclusion": "A and (B or C)"}
+{"premises": ["A or B", "not A or C", "not B or D"], "conclusion": "C or D"}
+{"premises": ["not A or not B"], "conclusion": "not (A and B)"}
+{"premises": ["A and not B"], "conclusion": "not (not A or B)"}
+{"premises": [], "conclusion": "not not not A or A"}
+{"premises": ["not not A or not B"], "conclusion": "not B or A"}
+{"premises": ["not A or B"], "conclusion": "not A or B"}
+{"premises": [], "conclusion": "not not (A and B) or (not A or not B)"}
+{"premises": ["not A or (B or C)"], "conclusion": "(not A or B) or (not A or C)"}
+{"premises": [], "conclusion": "(not A or B) or (not B or A)"}
+{"premises": [], "conclusion": "not (not (not A or B) or A) or A"}

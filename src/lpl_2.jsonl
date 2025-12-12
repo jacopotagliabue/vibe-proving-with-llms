@@ -1,0 +1,3 @@
+{"premises": ["A or B"], "conclusion": "A or not not B"}
+{"premises": ["A or B", "not B or C"], "conclusion": "A or C"}
+{"premises": ["A or B", "A or C"], "conclusion": "A or (B and C)"}

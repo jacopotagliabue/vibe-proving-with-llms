@@ -1,0 +1,848 @@
+{"premises": ["A", "B"], "conclusion": "A and B", "num_steps": 1}
+{"premises": ["P and Q"], "conclusion": "Q", "num_steps": 2}
+{"premises": ["X"], "conclusion": "X or Y", "num_steps": 1}
+{"premises": ["P", "Q"], "conclusion": "P and Q", "num_steps": 1}
+{"premises": ["R and S"], "conclusion": "S", "num_steps": 2}
+{"premises": ["X", "Y and Z"], "conclusion": "X or Z", "num_steps": 2}
+{"premises": ["P and Q", "R"], "conclusion": "Q and R", "num_steps": 4}
+{"premises": ["X and Y", "not not Z"], "conclusion": "X or M", "num_steps": 4}
+{"premises": ["A and B", "C and not W"], "conclusion": "A and C", "num_steps": 6}
+{"premises": ["X and Y", "not not Z"], "conclusion": "Z and X", "num_steps": 4}
+{"premises": ["M and N"], "conclusion": "M or B", "num_steps": 6}
+{"premises": ["X", "Y and Z"], "conclusion": "(X or M) and (Y or N)", "num_steps": 4}
+{"premises": ["A and B", "not not C"], "conclusion": "A and C", "num_steps": 6}
+{"premises": ["X and Y"], "conclusion": "Y", "num_steps": 2}
+{"premises": ["M"], "conclusion": "M or N", "num_steps": 1}
+{"premises": ["M and N"], "conclusion": "M or N", "num_steps": 6}
+{"premises": ["X", "not not Y", "Z"], "conclusion": "(X and Y) and Z", "num_steps": 4}
+{"premises": ["A and (B and C)"], "conclusion": "A and B", "num_steps": 7}
+{"premises": ["X and Y", "not not Z"], "conclusion": "(X and Z) or W", "num_steps": 4}
+{"premises": ["A and B", "not not C"], "conclusion": "(A and C) or X", "num_steps": 4}
+{"premises": ["M and N", "W"], "conclusion": "M and W", "num_steps": 5}
+{"premises": ["(P and Q) or (R and S)", "not P", "not R"], "conclusion": "(P and Q) or (R and S)", "num_steps": 11}
+{"premises": ["X and (Y or Z)", "not Y", "(not Z and M) or N"], "conclusion": "(X and Z) and N", "num_steps": 13}
+{"premises": ["X and Y", "Z or W"], "conclusion": "(Y and Z) or W", "num_steps": 4}
+{"premises": ["A and B"], "conclusion": "B", "num_steps": 2}
+{"premises": ["not not X", "Y and Z"], "conclusion": "Y and X", "num_steps": 4}
+{"premises": ["A and B", "C and W"], "conclusion": "A or N", "num_steps": 6}
+{"premises": ["W and N"], "conclusion": "W or N", "num_steps": 6}
+{"premises": ["X and Y", "not not Z"], "conclusion": "X and Z", "num_steps": 4}
+{"premises": ["M and N", "W"], "conclusion": "M or W", "num_steps": 5}
+{"premises": ["A and B", "not not C"], "conclusion": "(A and C) or D", "num_steps": 4}
+{"premises": ["X and Y", "Z"], "conclusion": "X and Z", "num_steps": 5}
+{"premises": ["A and (B or C)", "not B and not C"], "conclusion": "A and (B or C)", "num_steps": 13}
+{"premises": ["X and Y", "not not Z"], "conclusion": "X or W", "num_steps": 4}
+{"premises": ["A and B", "C and not D"], "conclusion": "A or W", "num_steps": 6}
+{"premises": ["X and Y", "not not Z"], "conclusion": "X and Z or M", "num_steps": 4}
+{"premises": ["A and B", "C and W"], "conclusion": "A and C", "num_steps": 6}
+{"premises": ["A and B", "C and not D"], "conclusion": "A and C", "num_steps": 6}
+{"premises": ["P or Q", "not P and R", "Q and S", "not S and T"], "conclusion": "R", "num_steps": 12}
+{"premises": ["A and B", "C or D", "not C"], "conclusion": "A", "num_steps": 17}
+{"premises": ["X and Y", "not not Z"], "conclusion": "X and Z or W", "num_steps": 4}
+{"premises": ["A and B", "C and D"], "conclusion": "A and C or E", "num_steps": 4}
+{"premises": ["not not P", "Q and R"], "conclusion": "not not (P and Q)", "num_steps": 4}
+{"premises": ["A and B", "C and not not W"], "conclusion": "A and W", "num_steps": 6}
+{"premises": ["A and B", "not not C"], "conclusion": "A or X", "num_steps": 4}
+{"premises": ["not not A", "B and C"], "conclusion": "A or X", "num_steps": 4}
+{"premises": ["X", "not not Y"], "conclusion": "(X or Z) and (Y or W)", "num_steps": 4}
+{"premises": ["M and N", "not not (A or B)"], "conclusion": "M and (A or B)", "num_steps": 6}
+{"premises": ["X"], "conclusion": "X or Z", "num_steps": 2}
+{"premises": ["A and B", "C and not not D"], "conclusion": "B", "num_steps": 4}
+{"premises": ["X and Y", "Z"], "conclusion": "X or Z", "num_steps": 5}
+{"premises": ["A and B", "C or D"], "conclusion": "B", "num_steps": 6}
+{"premises": ["not not M", "N and W"], "conclusion": "M and N", "num_steps": 4}
+{"premises": ["M and N", "not not W"], "conclusion": "W and M", "num_steps": 4}
+{"premises": ["A and B", "C or D"], "conclusion": "A and B", "num_steps": 6}
+{"premises": ["X and Y", "not not Z"], "conclusion": "Y or Z", "num_steps": 5}
+{"premises": ["M and N", "W"], "conclusion": "N and W", "num_steps": 7}
+{"premises": ["A and B", "not not C"], "conclusion": "C and A", "num_steps": 4}
+{"premises": ["M and N", "W"], "conclusion": "W and M", "num_steps": 6}
+{"premises": ["P or Q", "not P and R", "Q and S", "not S and T"], "conclusion": "T", "num_steps": 12}
+{"premises": ["X or Y", "X or Z", "not Y and not Z", "M and N"], "conclusion": "X and M and N", "num_steps": 16}
+{"premises": ["A and B", "C"], "conclusion": "C and A", "num_steps": 6}
+{"premises": ["A and B", "C and W"], "conclusion": "A and W", "num_steps": 6}
+{"premises": ["M and N", "not A"], "conclusion": "M and not A", "num_steps": 5}
+{"premises": ["not not X", "Y and Z"], "conclusion": "Y or M", "num_steps": 4}
+{"premises": ["A and B", "C and not D"], "conclusion": "A and not D", "num_steps": 6}
+{"premises": ["X or Y", "not not Z", "X and W", "Y and W"], "conclusion": "W and Z", "num_steps": 7}
+{"premises": ["M and N", "not not (A or B)"], "conclusion": "M or A", "num_steps": 6}
+{"premises": ["A or B", "C or D", "not A and not C", "B and E", "D and F"], "conclusion": "(B and D) and (E and F)", "num_steps": 17}
+{"premises": ["(P and Q) or (R and S)", "not P", "not S"], "conclusion": "not X", "num_steps": 11}
+{"premises": ["X and Y", "Z and W"], "conclusion": "(X or M) and (Z or N)", "num_steps": 5}
+{"premises": ["M and N"], "conclusion": "N and M", "num_steps": 7}
+{"premises": ["M and N", "not not W"], "conclusion": "M and W", "num_steps": 6}
+{"premises": ["X or Y", "Y or Z", "not X and M", "not Y and N", "not Z and W"], "conclusion": "~", "num_steps": 15}
+{"premises": ["X and Y", "Z or W"], "conclusion": "Y and Z or W", "num_steps": 4}
+{"premises": ["P or Q", "not P and R", "Q and S", "not S and T"], "conclusion": "~", "num_steps": 10}
+{"premises": ["X or Y", "not not Z", "X and M", "Y and M"], "conclusion": "M and Z", "num_steps": 7}
+{"premises": ["A and (B or C)", "not B or D", "not C or E"], "conclusion": "D or E", "num_steps": 10}
+{"premises": ["(A or B) and (C or D)", "not A and not C"], "conclusion": "B and D", "num_steps": 15}
+{"premises": ["P or (Q and R)", "not P", "Q and R"], "conclusion": "(Q or not Q) and (R or not R)", "num_steps": 13}
+{"premises": ["A and B", "C or D", "not C"], "conclusion": "(A and D) and B", "num_steps": 20}
+{"premises": ["X or Y", "not not Z"], "conclusion": "(X or Z) and (Y or Z)", "num_steps": 4}
+{"premises": ["not not X", "Y and Z"], "conclusion": "Y or N", "num_steps": 4}
+{"premises": ["X", "Y and Z"], "conclusion": "X and Y", "num_steps": 4}
+{"premises": ["not not A", "B and C"], "conclusion": "A and C", "num_steps": 6}
+{"premises": ["X", "not not Y", "Z"], "conclusion": "Y or Z", "num_steps": 4}
+{"premises": ["M and N", "W"], "conclusion": "N or W", "num_steps": 7}
+{"premises": ["not not A", "B and C"], "conclusion": "A and B", "num_steps": 6}
+{"premises": ["A and B", "C or D", "not C or not A", "not D or not B"], "conclusion": "A and B", "num_steps": 14}
+{"premises": ["A or (B and C)", "not A", "D or E", "not D"], "conclusion": "B and E", "num_steps": 12}
+{"premises": ["M and N", "W"], "conclusion": "(M and W) and N", "num_steps": 7}
+{"premises": ["M and N", "W"], "conclusion": "M or Y", "num_steps": 5}
+{"premises": ["A and (B or C)", "not B and not C"], "conclusion": "A", "num_steps": 12}
+{"premises": ["X or Y", "not not Z", "X and M"], "conclusion": "Z and (M or N)", "num_steps": 4}
+{"premises": ["W and (A or B)"], "conclusion": "W and (A or B)", "num_steps": 6}
+{"premises": ["A and B", "C or D"], "conclusion": "B or D", "num_steps": 4}
+{"premises": ["A and B", "C"], "conclusion": "A and C", "num_steps": 6}
+{"premises": ["not not A", "B and C"], "conclusion": "C and A", "num_steps": 4}
+{"premises": ["X", "not not Y", "Z"], "conclusion": "(X and Y) or Z", "num_steps": 4}
+{"premises": ["A and B", "C and D"], "conclusion": "A and C and B", "num_steps": 5}
+{"premises": ["P and Q", "not not R"], "conclusion": "P and R or S", "num_steps": 4}
+{"premises": ["A and B", "not C", "C or D"], "conclusion": "(A and D) and (A and B)", "num_steps": 16}
+{"premises": ["M and N"], "conclusion": "N and (M or B)", "num_steps": 7}
+{"premises": ["A and (B or C)", "not B and D", "C and E"], "conclusion": "A and E", "num_steps": 13}
+{"premises": ["X or Y", "Y or Z", "not X and not Z"], "conclusion": "Y and not Z", "num_steps": 10}
+{"premises": ["A and (B or C)", "not B and D", "C and E"], "conclusion": "D and E", "num_steps": 10}
+{"premises": ["M and N"], "conclusion": "M or Y", "num_steps": 6}
+{"premises": ["P", "not not Q", "R and S"], "conclusion": "P and Q and R", "num_steps": 4}
+{"premises": ["X and Y", "Z"], "conclusion": "X or W and Z", "num_steps": 6}
+{"premises": ["X", "Y and Z"], "conclusion": "(X and Y) and Z", "num_steps": 7}
+{"premises": ["M and N", "not not W"], "conclusion": "N and W", "num_steps": 5}
+{"premises": ["A", "B and C"], "conclusion": "(A and B) and C", "num_steps": 7}
+{"premises": ["not not X", "Y and Z"], "conclusion": "X and Z", "num_steps": 5}
+{"premises": ["A and B", "C and not not W"], "conclusion": "A or W", "num_steps": 6}
+{"premises": ["M and N", "W"], "conclusion": "(M or W) and (N or W)", "num_steps": 5}
+{"premises": ["M and N"], "conclusion": "M and N", "num_steps": 6}
+{"premises": ["M", "N and W"], "conclusion": "M or N", "num_steps": 2}
+{"premises": ["M", "N and W"], "conclusion": "M or X", "num_steps": 6}
+{"premises": ["not not A", "B and C", "Y"], "conclusion": "Y and A", "num_steps": 5}
+{"premises": ["M and N", "W"], "conclusion": "N", "num_steps": 6}
+{"premises": ["A and (B or C)", "not B or not D", "D"], "conclusion": "A and C", "num_steps": 16}
+{"premises": ["X or Y", "not not Z", "X and M", "Y and N"], "conclusion": "M or N", "num_steps": 6}
+{"premises": ["M and N", "W"], "conclusion": "W and N", "num_steps": 7}
+{"premises": ["A and B", "C", "not not D"], "conclusion": "D or A", "num_steps": 4}
+{"premises": ["P and Q", "R"], "conclusion": "Q or R", "num_steps": 7}
+{"premises": ["X and Y", "not not Z", "W"], "conclusion": "W or Y", "num_steps": 5}
+{"premises": ["X and Y", "Z or W"], "conclusion": "X or Z", "num_steps": 6}
+{"premises": ["not not M", "N and (A or B)"], "conclusion": "(M and N) or A", "num_steps": 5}
+{"premises": ["X or Y", "not not Z", "X and M"], "conclusion": "(M and Z) or (Y and Z)", "num_steps": 7}
+{"premises": ["A and B", "C"], "conclusion": "B and C", "num_steps": 4}
+{"premises": ["P", "not not Q"], "conclusion": "(P and Q) or R", "num_steps": 4}
+{"premises": ["X and Y", "Z"], "conclusion": "Y", "num_steps": 6}
+{"premises": ["A or B", "not A or not C", "C and D"], "conclusion": "B and D", "num_steps": 15}
+{"premises": ["X or Y", "not not Z", "X and M"], "conclusion": "M and Z", "num_steps": 7}
+{"premises": ["M and (N or B)", "not N or C", "not B or D", "not C and not D"], "conclusion": "M", "num_steps": 14}
+{"premises": ["M and N"], "conclusion": "M or W", "num_steps": 6}
+{"premises": ["not not A", "B and C"], "conclusion": "A or Z", "num_steps": 4}
+{"premises": ["M and N", "W"], "conclusion": "(M or W) and N", "num_steps": 7}
+{"premises": ["A and B", "C and D"], "conclusion": "A and C", "num_steps": 6}
+{"premises": ["X or Y", "not not Z", "X and M"], "conclusion": "M or Z", "num_steps": 7}
+{"premises": ["P or Q", "not P and R", "Q and S", "not S and T"], "conclusion": "R and T", "num_steps": 14}
+{"premises": ["A and B", "not C"], "conclusion": "A and not C", "num_steps": 15}
+{"premises": ["A and (B or C)", "not B", "C and D", "not D"], "conclusion": "not not (A and (B or C))", "num_steps": 11}
+{"premises": ["A and B", "C and not C"], "conclusion": "A and B", "num_steps": 6}
+{"premises": ["A and B", "C", "not not D"], "conclusion": "(A and D) and C", "num_steps": 4}
+{"premises": ["P and Q", "R"], "conclusion": "(P or R) and Q", "num_steps": 6}
+{"premises": ["X and Y", "not not Z", "M"], "conclusion": "(Y and Z) or M", "num_steps": 4}
+{"premises": ["A and B", "C and not D"], "conclusion": "not D and A", "num_steps": 6}
+{"premises": ["X and Y"], "conclusion": "X and Y", "num_steps": 6}
+{"premises": ["A and B", "not not C"], "conclusion": "A or M", "num_steps": 4}
+{"premises": ["X", "not not Y", "Z and W"], "conclusion": "Z or M", "num_steps": 4}
+{"premises": ["A or B", "not A and C", "not B and D"], "conclusion": "D", "num_steps": 14}
+{"premises": ["X or Y", "X and Z", "Y and W", "not Z"], "conclusion": "not not (Y and W)", "num_steps": 15}
+{"premises": ["X and Y", "M"], "conclusion": "X and M", "num_steps": 6}
+{"premises": ["(P or Q) and R", "not P and not Q"], "conclusion": "R", "num_steps": 12}
+{"premises": ["M and N", "not not (B or C)"], "conclusion": "M and (B or C)", "num_steps": 6}
+{"premises": ["X and Y", "not Z or W", "Z and M"], "conclusion": "X and Y and W and M", "num_steps": 13}
+{"premises": ["A and B", "C or D", "not C or not A", "not D or not B"], "conclusion": "~", "num_steps": 15}
+{"premises": ["M and N", "W"], "conclusion": "W or Y", "num_steps": 6}
+{"premises": ["X and Y", "Z or W", "not Z and M", "not W and N"], "conclusion": "X and M", "num_steps": 14}
+{"premises": ["not not X", "Y and Z"], "conclusion": "X and Y", "num_steps": 6}
+{"premises": ["X or Y", "Y or Z", "not X or M", "not Y or N", "not Z or W", "not M and not N and not W"], "conclusion": "not not (Y or Z)", "num_steps": 19}
+{"premises": ["A and B", "C and not not D"], "conclusion": "A and D", "num_steps": 5}
+{"premises": ["(A and B) or (C and D)", "not A", "not C"], "conclusion": "(A and B) or (C and D)", "num_steps": 11}
+{"premises": ["M and N", "not not (A and B)"], "conclusion": "M and A", "num_steps": 7}
+{"premises": ["P or Q", "not P and R", "Q and S"], "conclusion": "S and R", "num_steps": 8}
+{"premises": ["P or Q", "not P and R", "Q and S", "not R and T"], "conclusion": "~", "num_steps": 9}
+{"premises": ["X or Y", "X and Z", "not (Y and Z)"], "conclusion": "X and Z", "num_steps": 17}
+{"premises": ["A and B", "C or D", "not C and E"], "conclusion": "A and B and D and E", "num_steps": 16}
+{"premises": ["X and Y", "(X and Y) and Z"], "conclusion": "X and Y and Z", "num_steps": 15}
+{"premises": ["A and B", "C or D"], "conclusion": "B or W", "num_steps": 7}
+{"premises": ["X", "Y and Z"], "conclusion": "X and Z", "num_steps": 6}
+{"premises": ["not not M", "N and W"], "conclusion": "M and W", "num_steps": 5}
+{"premises": ["M and N"], "conclusion": "M or C", "num_steps": 6}
+{"premises": ["A or (B and C)", "not A", "D or not B", "not D"], "conclusion": "A or (B and C)", "num_steps": 11}
+{"premises": ["(X and Y) or Z", "not Z", "W or not X", "M and not W"], "conclusion": "(X and Y) or Z", "num_steps": 17}
+{"premises": ["X or Y", "not not Z", "X and W"], "conclusion": "W and Z", "num_steps": 7}
+{"premises": ["M and N", "not B"], "conclusion": "M and not B", "num_steps": 6}
+{"premises": ["M", "N and W"], "conclusion": "M or W", "num_steps": 2}
+{"premises": ["A or B", "not A or C", "not B or D", "not C", "not D"], "conclusion": "A or B", "num_steps": 10}
+{"premises": ["X and (Y or Z)", "not Y or M", "not Z or N", "not M and not N"], "conclusion": "X and (Y or Z)", "num_steps": 14}
+{"premises": ["X and (Y or Z)", "not Y and not Z"], "conclusion": "~", "num_steps": 12}
+{"premises": ["(P or Q) and (R or S)", "not P and not R", "Q and S"], "conclusion": "Q and S", "num_steps": 15}
+{"premises": ["A and (B or C)", "not B", "not (A and D)"], "conclusion": "A and C", "num_steps": 19}
+{"premises": ["X or (Y and Z)", "not Y or W", "not W"], "conclusion": "not W", "num_steps": 17}
+{"premises": ["A and B", "C and not W"], "conclusion": "A and not W", "num_steps": 6}
+{"premises": ["X and Y", "(not X or not Y) or Z", "not Z", "W or M", "not W and not M"], "conclusion": "~", "num_steps": 13}
+{"premises": ["not not X", "Y and Z"], "conclusion": "X or M", "num_steps": 4}
+{"premises": ["(P or Q) and R", "not P and S", "Q and T"], "conclusion": "(Q and T) and R", "num_steps": 10}
+{"premises": ["P", "not not Q"], "conclusion": "Q or P", "num_steps": 4}
+{"premises": ["X and Y", "Z"], "conclusion": "Y or M", "num_steps": 7}
+{"premises": ["X and Y", "Z"], "conclusion": "(X or Z) and Y", "num_steps": 7}
+{"premises": ["X and Z", "Z"], "conclusion": "X and Z", "num_steps": 5}
+{"premises": ["M and N", "not not W"], "conclusion": "M or W", "num_steps": 4}
+{"premises": ["X", "Y and Z"], "conclusion": "X or Y", "num_steps": 2}
+{"premises": ["A and B", "C or D", "not C and E"], "conclusion": "B and E and A", "num_steps": 12}
+{"premises": ["X", "not not Y", "Z"], "conclusion": "(X and Y) and (Z or M)", "num_steps": 4}
+{"premises": ["A and (B or C)", "not B and D", "not C"], "conclusion": "A and D", "num_steps": 16}
+{"premises": ["not not A", "B and C"], "conclusion": "B or Y", "num_steps": 4}
+{"premises": ["M and N", "W"], "conclusion": "M or Z", "num_steps": 5}
+{"premises": ["(P and Q) or (R and S)", "not P", "not R"], "conclusion": "~", "num_steps": 7}
+{"premises": ["X or Y", "Y or Z", "not X and not Z"], "conclusion": "(Y and not X) and (Y and not Z)", "num_steps": 17}
+{"premises": ["A and (B or C)", "not B", "D or not C"], "conclusion": "A and D", "num_steps": 14}
+{"premises": ["(A and B) or C", "not C", "A and D"], "conclusion": "B and D", "num_steps": 13}
+{"premises": ["X", "Y and Z"], "conclusion": "X", "num_steps": 5}
+{"premises": ["X and Y", "not not Z", "W"], "conclusion": "X or N", "num_steps": 5}
+{"premises": ["X or Y", "not not Z", "X and M"], "conclusion": "M or (Z or Y)", "num_steps": 6}
+{"premises": ["A and (B or C)", "not B or not D", "not C or not E", "D and E"], "conclusion": "A and (B or C)", "num_steps": 15}
+{"premises": ["M and N", "not not B"], "conclusion": "M or B", "num_steps": 6}
+{"premises": ["A and B", "C and W"], "conclusion": "W and (A or N)", "num_steps": 7}
+{"premises": ["M and N", "(not M or W) and (not N or W)"], "conclusion": "W", "num_steps": 14}
+{"premises": ["X or Y", "not not Z", "X and W"], "conclusion": "W or (Z or Y)", "num_steps": 6}
+{"premises": ["M and N", "not not B"], "conclusion": "M and B", "num_steps": 6}
+{"premises": ["A", "B and C"], "conclusion": "C or Y", "num_steps": 5}
+{"premises": ["M and N", "W"], "conclusion": "N or Z", "num_steps": 7}
+{"premises": ["A or B", "not A or C", "not B or D", "not C and not D"], "conclusion": "~", "num_steps": 9}
+{"premises": ["(P or Q) and (R or S)", "not P and not R", "Q and T"], "conclusion": "Q and S", "num_steps": 14}
+{"premises": ["(X or Y) and (not Z or W)", "not X and not Y", "Z", "W and M"], "conclusion": "W", "num_steps": 19}
+{"premises": ["A and B", "C and N"], "conclusion": "A and N", "num_steps": 6}
+{"premises": ["A", "B and C"], "conclusion": "(A or B) and C", "num_steps": 7}
+{"premises": ["X and Y", "not not Z", "W"], "conclusion": "W or Z", "num_steps": 4}
+{"premises": ["A", "B and C"], "conclusion": "A and B", "num_steps": 4}
+{"premises": ["X or Y", "X or Z", "not Y and not Z"], "conclusion": "X and X", "num_steps": 11}
+{"premises": ["A and B", "C or D", "not C and E"], "conclusion": "A and D", "num_steps": 15}
+{"premises": ["A and (B or C)", "not B and D", "C and not E", "E or F"], "conclusion": "C and F", "num_steps": 14}
+{"premises": ["X and Y", "(Z or W) or (M or N)", "not Z and not W"], "conclusion": "(X and M) or (Y and N)", "num_steps": 16}
+{"premises": ["X and (Y or Z)", "not Y or W", "not Z or M", "not W and not M"], "conclusion": "~", "num_steps": 11}
+{"premises": ["M and (N or W)", "not N", "not (M and W)"], "conclusion": "M and (N or W)", "num_steps": 13}
+{"premises": ["X or Y", "not not Z", "X and M", "Y and N"], "conclusion": "(M and Z) or (N and Z)", "num_steps": 8}
+{"premises": ["(P or Q) and (R or S)", "not P and not R"], "conclusion": "Q and S", "num_steps": 15}
+{"premises": ["(X or Y) and (M or N)", "not X", "not M"], "conclusion": "Y and N", "num_steps": 16}
+{"premises": ["X and Y", "not not Z", "W"], "conclusion": "Z and W", "num_steps": 4}
+{"premises": ["X or (Y and Z)", "not X", "M or N", "not M"], "conclusion": "(Y and Z) and N", "num_steps": 11}
+{"premises": ["X or Y", "not X", "Z and W"], "conclusion": "(Y and Z) and W", "num_steps": 11}
+{"premises": ["A and B", "C or W"], "conclusion": "A and B", "num_steps": 6}
+{"premises": ["P or Q", "not P and R", "Q and S", "not Q and T"], "conclusion": "not (P or Q)", "num_steps": 11}
+{"premises": ["X or Y", "Y or Z", "not X and M", "not Y and N", "not Z and W"], "conclusion": "Y or Z", "num_steps": 15}
+{"premises": ["A and B", "C and D"], "conclusion": "B or W", "num_steps": 8}
+{"premises": ["X", "not not Y"], "conclusion": "X and Y", "num_steps": 4}
+{"premises": ["A or (B and C)", "not A", "D or E", "not D"], "conclusion": "B", "num_steps": 13}
+{"premises": ["A and B", "C"], "conclusion": "A or W", "num_steps": 5}
+{"premises": ["not not X", "Y and Z"], "conclusion": "(X or W) and (Y or M)", "num_steps": 5}
+{"premises": ["M or N", "not not M", "W"], "conclusion": "(M and W) or N", "num_steps": 3}
+{"premises": ["X and Y", "Z and W"], "conclusion": "X and Z", "num_steps": 6}
+{"premises": ["P or Q", "R"], "conclusion": "(P or Q) and (P or R)", "num_steps": 5}
+{"premises": ["not not X", "Y and Z"], "conclusion": "(X and Y) or M", "num_steps": 4}
+{"premises": ["A and B", "not not C"], "conclusion": "A or C", "num_steps": 6}
+{"premises": ["X or Y", "X or Z", "not (Y and Z)"], "conclusion": "X or (M and N)", "num_steps": 12}
+{"premises": ["A and B", "C or D", "not C"], "conclusion": "A and B and D", "num_steps": 12}
+{"premises": ["X and Y", "(not X or not Y) or Z", "not Z"], "conclusion": "(not X or not Y) or Z", "num_steps": 12}
+{"premises": ["X and Y", "not not Z", "W"], "conclusion": "X and (Z and W)", "num_steps": 5}
+{"premises": ["X and Y", "Z or W"], "conclusion": "(Y and Z) or (Y and W)", "num_steps": 4}
+{"premises": ["M and N", "A"], "conclusion": "M and (A or B)", "num_steps": 7}
+{"premises": ["A and B", "C and W"], "conclusion": "W and A", "num_steps": 7}
+{"premises": ["A and B", "C or D"], "conclusion": "A or C", "num_steps": 6}
+{"premises": ["not not X", "Y and Z", "W"], "conclusion": "X and W", "num_steps": 4}
+{"premises": ["P or Q", "not P and not R", "Q and R"], "conclusion": "P or Q", "num_steps": 13}
+{"premises": ["P", "not not Q"], "conclusion": "P and Q", "num_steps": 4}
+{"premises": ["X and Y", "Z"], "conclusion": "X and Z and Y", "num_steps": 7}
+{"premises": ["P or Q", "not P and R", "Q and S"], "conclusion": "Q and not P and R", "num_steps": 10}
+{"premises": ["A and B", "not (C or D)"], "conclusion": "not C and not D", "num_steps": 18}
+{"premises": ["X and Y", "not not Z"], "conclusion": "Y and Z", "num_steps": 5}
+{"premises": ["X or Y", "X or Z", "not (Y and Z)"], "conclusion": "not Z or X", "num_steps": 18}
+{"premises": ["P or Q", "not P and R", "Q and S", "not S and T"], "conclusion": "P or Q", "num_steps": 12}
+{"premises": ["X and Y", "not not Z", "W"], "conclusion": "(X or Z) and (Z and W)", "num_steps": 5}
+{"premises": ["A and (B or C)", "not B and D", "not C and E"], "conclusion": "A and (B or C)", "num_steps": 14}
+{"premises": ["A", "not not B", "C and D"], "conclusion": "B and D", "num_steps": 4}
+{"premises": ["A and B", "not C"], "conclusion": "((A and not C) and B) and not C", "num_steps": 16}
+{"premises": ["P or Q", "not P and not Q"], "conclusion": "P or Q", "num_steps": 10}
+{"premises": ["A and B", "not A or not B"], "conclusion": "not A or not B", "num_steps": 15}
+{"premises": ["A and B", "C and not W"], "conclusion": "A or N", "num_steps": 6}
+{"premises": ["X or Y", "not X or Z", "not Y or W", "not Z and not W"], "conclusion": "X or Y", "num_steps": 16}
+{"premises": ["X or Y", "not X or (Z and W)", "not Y or (M and N)"], "conclusion": "(Z or M) and (W or N)", "num_steps": 11}
+{"premises": ["M and N", "not B"], "conclusion": "N and (M or A)", "num_steps": 7}
+{"premises": ["P and (Q or R)", "not Q", "R and S"], "conclusion": "(P and R) and S", "num_steps": 16}
+{"premises": ["(A and B) or (C and D)", "not A or X", "not C or Y", "not X", "not Y"], "conclusion": "not (C and D)", "num_steps": 18}
+{"premises": ["A and (B or C)", "not B and not C"], "conclusion": "~", "num_steps": 13}
+{"premises": ["A and B", "not not C"], "conclusion": "(A and C) or Z", "num_steps": 4}
+{"premises": ["X and Y", "(Z or W) and M", "not Z or not Y"], "conclusion": "W and M", "num_steps": 16}
+{"premises": ["A or (B and C)", "not A", "D or E", "not D"], "conclusion": "C and E", "num_steps": 15}
+{"premises": ["A and B", "C and not D"], "conclusion": "C and A", "num_steps": 7}
+{"premises": ["A and (B or C)", "not B and D", "not C and E"], "conclusion": "~", "num_steps": 11}
+{"premises": ["A and (B and C)", "X"], "conclusion": "C or Y", "num_steps": 5}
+{"premises": ["X and Y", "(not X or not Y) and Z"], "conclusion": "X and Z", "num_steps": 14}
+{"premises": ["not not X", "Y and Z"], "conclusion": "(X or Y) and Z", "num_steps": 5}
+{"premises": ["A and B", "not C or D", "C or E", "not E"], "conclusion": "A and C", "num_steps": 13}
+{"premises": ["M and N", "not not M"], "conclusion": "M or N", "num_steps": 6}
+{"premises": ["A and B", "C or D", "not not E"], "conclusion": "(A and E) or F", "num_steps": 4}
+{"premises": ["P and Q", "R"], "conclusion": "(P and R) and Q", "num_steps": 7}
+{"premises": ["X and Y", "not not Z", "W or M"], "conclusion": "Y", "num_steps": 5}
+{"premises": ["X or Y", "Y or Z", "not X and not Z"], "conclusion": "Y", "num_steps": 13}
+{"premises": ["(A or B) and (C or D)", "not A", "not C"], "conclusion": "B and D", "num_steps": 17}
+{"premises": ["X or Y", "not not Z", "X and W"], "conclusion": "W or M", "num_steps": 4}
+{"premises": ["A and B", "C"], "conclusion": "A or N", "num_steps": 5}
+{"premises": ["X and Y", "(not X or Z) and (not Y or W)", "not (Z and W)"], "conclusion": "~", "num_steps": 16}
+{"premises": ["M and N"], "conclusion": "N or Z", "num_steps": 7}
+{"premises": ["X and Y", "not Z"], "conclusion": "X and not Z", "num_steps": 5}
+{"premises": ["X and (Y or Z)", "not Y", "not Z"], "conclusion": "Y or Z", "num_steps": 13}
+{"premises": ["A and B", "not C or D", "C and not D", "not A or E"], "conclusion": "E", "num_steps": 16}
+{"premises": ["A or (B and C)", "not A", "X or Y", "not X"], "conclusion": "B or Y", "num_steps": 14}
+{"premises": ["X and Y", "Z or W", "not Z"], "conclusion": "X", "num_steps": 14}
+{"premises": ["X or Y", "not X or Z", "not Y or W", "not Z and not W"], "conclusion": "~", "num_steps": 9}
+{"premises": ["(A and B) or (C and not D)", "not A or M", "not C or N", "not M and not N"], "conclusion": "~", "num_steps": 11}
+{"premises": ["not not M", "N and (B or C)"], "conclusion": "(M and N) or B", "num_steps": 5}
+{"premises": ["P or Q", "not P or R", "not Q or R", "not R"], "conclusion": "not R", "num_steps": 15}
+{"premises": ["A and B", "C and not not W"], "conclusion": "A or N", "num_steps": 6}
+{"premises": ["X or Y", "not not Z", "X and M", "Y and N"], "conclusion": "M or Z", "num_steps": 8}
+{"premises": ["A and B", "not C"], "conclusion": "A or W", "num_steps": 5}
+{"premises": ["(X or Y) and (M or N)", "not X and not M"], "conclusion": "Y and N", "num_steps": 16}
+{"premises": ["not not A", "B and C"], "conclusion": "(A and C) or M", "num_steps": 4}
+{"premises": ["X and Z", "Z"], "conclusion": "Y", "num_steps": 6}
+{"premises": ["M", "N and W"], "conclusion": "N and M", "num_steps": 5}
+{"premises": ["(P or Q) and R", "not P and S", "T or not R"], "conclusion": "Q and T", "num_steps": 12}
+{"premises": ["X or (Y and Z)", "not X", "M or N", "not M"], "conclusion": "Y and N", "num_steps": 17}
+{"premises": ["A and (B or C)", "not B", "W or not A", "not W"], "conclusion": "A and C", "num_steps": 18}
+{"premises": ["A and B", "C and D"], "conclusion": "(A or X) and (C or Y)", "num_steps": 5}
+{"premises": ["M and N", "W"], "conclusion": "N or X", "num_steps": 7}
+{"premises": ["X or Y", "not not Z", "X and W"], "conclusion": "(W and Z) or (Y and Z)", "num_steps": 7}
+{"premises": ["M and N", "not not (A or B)"], "conclusion": "(A or B) and M", "num_steps": 4}
+{"premises": ["X", "not not Y", "Z"], "conclusion": "Y and Z", "num_steps": 4}
+{"premises": ["A and B", "not not C"], "conclusion": "B or X", "num_steps": 5}
+{"premises": ["M and N", "W"], "conclusion": "N or Y", "num_steps": 7}
+{"premises": ["(A and B) or C", "not C", "D or not A"], "conclusion": "(A and B) and D", "num_steps": 11}
+{"premises": ["P or Q", "not P and not Q"], "conclusion": "not R", "num_steps": 10}
+{"premises": ["X and Y", "(Z or W) and M", "not Z or not X"], "conclusion": "W and M", "num_steps": 15}
+{"premises": ["A and B", "C and D"], "conclusion": "A and C or P", "num_steps": 4}
+{"premises": ["not not P", "Q and R"], "conclusion": "P and Q or X", "num_steps": 4}
+{"premises": ["A or (B and C)", "not A", "B", "not C"], "conclusion": "not C", "num_steps": 14}
+{"premises": ["A and B", "C and N"], "conclusion": "A or W", "num_steps": 6}
+{"premises": ["X and Y", "Z"], "conclusion": "Y and Z", "num_steps": 7}
+{"premises": ["(P and Q) or (R and S)", "not P", "not S"], "conclusion": "(P and Q) or (R and S)", "num_steps": 11}
+{"premises": ["A and B", "not A or C", "not C or D"], "conclusion": "D and B", "num_steps": 16}
+{"premises": ["A and B", "C and D"], "conclusion": "(A and D) or P", "num_steps": 4}
+{"premises": ["P and Q", "not not R"], "conclusion": "(P and R) or X", "num_steps": 4}
+{"premises": ["A and B", "not C", "C or (D and E)"], "conclusion": "(A and D) and (E and B)", "num_steps": 16}
+{"premises": ["P or Q", "not not R"], "conclusion": "Q or R", "num_steps": 3}
+{"premises": ["X or Y", "X and Z", "Y and W", "not Z"], "conclusion": "Y and W", "num_steps": 12}
+{"premises": ["M or (N and B)", "not M", "A or C"], "conclusion": "A or (N and C)", "num_steps": 18}
+{"premises": ["X and Y", "M"], "conclusion": "M and Y", "num_steps": 6}
+{"premises": ["X", "not not Y"], "conclusion": "(X or Z) and (Y or M)", "num_steps": 4}
+{"premises": ["A and (B and C)"], "conclusion": "B", "num_steps": 6}
+{"premises": ["X or (Y and Z)", "not X", "M or N", "not M"], "conclusion": "Y and Z and N", "num_steps": 12}
+{"premises": ["M or N", "M and W", "N and W", "not W"], "conclusion": "not W", "num_steps": 19}
+{"premises": ["A and B", "C and N"], "conclusion": "A and C", "num_steps": 6}
+{"premises": ["not not A", "B and C", "Z"], "conclusion": "B or Z", "num_steps": 5}
+{"premises": ["A and (B or C)", "not B", "C and D", "not D"], "conclusion": "B or C", "num_steps": 15}
+{"premises": ["X or Y", "Y and Z", "not Z", "W or M", "not W"], "conclusion": "M", "num_steps": 15}
+{"premises": ["X and Y", "not Z or W", "Y and Z"], "conclusion": "(X and W) and Y", "num_steps": 15}
+{"premises": ["X and Y", "not not Z", "W"], "conclusion": "(Y or M) and (Z and W)", "num_steps": 5}
+{"premises": ["A or B", "not A or C", "not B or C", "not C"], "conclusion": "C", "num_steps": 12}
+{"premises": ["X and Y", "Z or W"], "conclusion": "Y and (Z or W)", "num_steps": 4}
+{"premises": ["not not P", "Q", "R or S"], "conclusion": "P and Q or T", "num_steps": 3}
+{"premises": ["A and B", "C or (not A and D)", "not C"], "conclusion": "D", "num_steps": 13}
+{"premises": ["X and Y", "Z"], "conclusion": "Z and X", "num_steps": 6}
+{"premises": ["W and N", "not C"], "conclusion": "W and (not C)", "num_steps": 5}
+{"premises": ["A and B", "C or D", "not C and not E", "not D and F"], "conclusion": "~", "num_steps": 22}
+{"premises": ["A and B"], "conclusion": "A or C", "num_steps": 6}
+{"premises": ["A or (B and C)", "not A", "D or not B", "not D"], "conclusion": "~", "num_steps": 8}
+{"premises": ["X and Y", "(not X or Z) and (not Y or W)", "not Z and not W"], "conclusion": "~", "num_steps": 11}
+{"premises": ["A and B", "C or D", "not C or E", "not D or F"], "conclusion": "A and ((A and E) or (A and F))", "num_steps": 13}
+{"premises": ["X and (Y or Z)", "not Y", "Z and M", "not M or N", "not N and W"], "conclusion": "X and W", "num_steps": 18}
+{"premises": ["X and Y", "Z and W"], "conclusion": "X and W", "num_steps": 6}
+{"premises": ["M or N", "M and N", "not M or (A and B)", "not N or (C and D)"], "conclusion": "A and C", "num_steps": 17}
+{"premises": ["X and (Y or Z)", "not Y or M", "not Z or N", "not M and not N"], "conclusion": "~", "num_steps": 17}
+{"premises": ["X and Y", "not not Z"], "conclusion": "(X and Z) or M", "num_steps": 4}
+{"premises": ["M", "N and W"], "conclusion": "(M and N) and W", "num_steps": 7}
+{"premises": ["A and (B and C)", "X"], "conclusion": "C or X", "num_steps": 5}
+{"premises": ["X or (Y and Z)", "not Y", "M or N", "not M"], "conclusion": "X and N", "num_steps": 11}
+{"premises": ["(P or Q) and R", "not P", "not Q"], "conclusion": "R", "num_steps": 10}
+{"premises": ["M and N", "not not C"], "conclusion": "M and C", "num_steps": 6}
+{"premises": ["X and Y", "not not Z"], "conclusion": "Y or W", "num_steps": 5}
+{"premises": ["X and Y", "(X and Y) and Z or W", "not Z", "not W"], "conclusion": "~", "num_steps": 16}
+{"premises": ["A and (B or C)", "not B and not C"], "conclusion": "not B and not C", "num_steps": 17}
+{"premises": ["A and B", "C and D"], "conclusion": "A or W", "num_steps": 7}
+{"premises": ["X and Y", "(not X or not Y) or Z", "not Z"], "conclusion": "~", "num_steps": 17}
+{"premises": ["M and N", "W"], "conclusion": "(M or W) and (N or M)", "num_steps": 5}
+{"premises": ["P or Q", "not not R", "P and S", "Q and T"], "conclusion": "(S and R) or (T and R)", "num_steps": 8}
+{"premises": ["X or Y", "Z and W", "not X or not Z", "not Y or not W"], "conclusion": "not (X or Y)", "num_steps": 16}
+{"premises": ["A and B", "C and D"], "conclusion": "A and D", "num_steps": 5}
+{"premises": ["P and Q", "not not R"], "conclusion": "P or M", "num_steps": 4}
+{"premises": ["X and Y", "Y or Z", "not Z and W", "M or N"], "conclusion": "X and W", "num_steps": 17}
+{"premises": ["X or Y", "not X and Z", "Y and W", "not W and M", "not Z or N"], "conclusion": "N and M", "num_steps": 16}
+{"premises": ["A and (B or C)", "not B and not D", "C and E"], "conclusion": "A and E", "num_steps": 19}
+{"premises": ["X or Y", "X and Z", "Y and W", "not (Z or W)"], "conclusion": "X or Y", "num_steps": 14}
+{"premises": ["A and B", "C or not B", "not A or D"], "conclusion": "C and D", "num_steps": 11}
+{"premises": ["X or (Y and Z)", "not X", "M or N", "not M"], "conclusion": "((N and Y) and Z)", "num_steps": 14}
+{"premises": ["X and (Y or Z)", "not Y", "M or N"], "conclusion": "((X and Z) and M) or ((X and Z) and N)", "num_steps": 16}
+{"premises": ["P or Q", "not P and not R", "Q and S", "R or T"], "conclusion": "S and T", "num_steps": 12}
+{"premises": ["X and Y", "not Z or W", "Z or M", "not W and not M"], "conclusion": "X and Y", "num_steps": 15}
+{"premises": ["X or Y", "X or Z", "not (Y and Z)"], "conclusion": "W or X", "num_steps": 13}
+{"premises": ["not not A", "B and C"], "conclusion": "A or M", "num_steps": 4}
+{"premises": ["X or (Y and Z)", "not X and M", "not Y and N"], "conclusion": "N", "num_steps": 13}
+{"premises": ["X or Y", "X or Z", "not Y and not Z"], "conclusion": "X and not Y and not Z", "num_steps": 14}
+{"premises": ["X and Y", "(not X or Z) and (not Y or W)", "not Z or M", "not W or N"], "conclusion": "M and N", "num_steps": 21}
+{"premises": ["A and B", "not not C"], "conclusion": "A or W", "num_steps": 6}
+{"premises": ["X and (Y or Z)", "not Y", "M or N", "not M"], "conclusion": "(X and Z) and N", "num_steps": 15}
+{"premises": ["A and B", "C or D", "not C or not A", "not D or not B"], "conclusion": "C or D", "num_steps": 15}
+{"premises": ["(A and B) or C", "not C", "D or not A"], "conclusion": "D", "num_steps": 10}
+{"premises": ["P or Q", "not P or R", "not Q or S", "not R and not S"], "conclusion": "not R and not S", "num_steps": 14}
+{"premises": ["X and (Y or Z)", "not Y", "M or not Z", "not M"], "conclusion": "not not (Y or Z)", "num_steps": 16}
+{"premises": ["X and Y", "Z or W"], "conclusion": "(Y and X) or N", "num_steps": 4}
+{"premises": ["A and B", "C or D", "not A or not C", "not B or not D"], "conclusion": "C or D", "num_steps": 13}
+{"premises": ["A or (B and C)", "not A", "D or not B", "not D"], "conclusion": "D", "num_steps": 15}
+{"premises": ["M and N"], "conclusion": "M or Z", "num_steps": 6}
+{"premises": ["A", "not not B", "C or D"], "conclusion": "((A and B) or C) or D", "num_steps": 4}
+{"premises": ["X and Y", "Z"], "conclusion": "(X and Z) and Y", "num_steps": 7}
+{"premises": ["X and Y", "not Z"], "conclusion": "(X and not Z) and (Y and not Z)", "num_steps": 17}
+{"premises": ["X", "not not Y", "Z"], "conclusion": "Z or (X and Y)", "num_steps": 4}
+{"premises": ["M and N", "W"], "conclusion": "N and (M or W)", "num_steps": 7}
+{"premises": ["(P and Q) or (R and not S)", "not P", "not R"], "conclusion": "(P and Q) or (R and not S)", "num_steps": 11}
+{"premises": ["A and B", "C or not D", "not C"], "conclusion": "A and (B and not D)", "num_steps": 11}
+{"premises": ["X or Y", "X and Z", "Y and W", "not Z or M", "not W or N"], "conclusion": "M or N", "num_steps": 10}
+{"premises": ["M", "N and W"], "conclusion": "M and N", "num_steps": 6}
+{"premises": ["A and (B or C)", "not B or not D", "C or not E", "D and E"], "conclusion": "A and C", "num_steps": 16}
+{"premises": ["A and B", "not C"], "conclusion": "B and A", "num_steps": 7}
+{"premises": ["A and (B or C)", "not B or not D", "D"], "conclusion": "C", "num_steps": 11}
+{"premises": ["A and (B and C)", "X"], "conclusion": "B and X", "num_steps": 4}
+{"premises": ["A and (B or C)", "not B", "W or not W"], "conclusion": "A and C", "num_steps": 10}
+{"premises": ["A and (B or C)", "not B", "D or not C", "not D"], "conclusion": "A", "num_steps": 13}
+{"premises": ["X or (Y and Z)", "not X or M", "not M", "not Y or W", "not W"], "conclusion": "not X", "num_steps": 15}
+{"premises": ["X", "not not Y"], "conclusion": "(X and Y) or W", "num_steps": 4}
+{"premises": ["M and N", "not W"], "conclusion": "N and (M or Z)", "num_steps": 7}
+{"premises": ["A and B", "not C"], "conclusion": "(A and not C) and B", "num_steps": 15}
+{"premises": ["X and (Y or Z)", "not Y", "(not Z and M) or N"], "conclusion": "X and Z and N", "num_steps": 17}
+{"premises": ["M and (N or not M)", "(N and A) or (B and C)", "not A"], "conclusion": "(M and N) and (B and C)", "num_steps": 17}
+{"premises": ["M and N", "(M and N) and B"], "conclusion": "(B and M) and (N and B)", "num_steps": 12}
+{"premises": ["P or Q", "not P and R", "Q and S", "not Q and T"], "conclusion": "R and S", "num_steps": 13}
+{"premises": ["not not X", "Y and Z"], "conclusion": "Z and X", "num_steps": 5}
+{"premises": ["A and B", "not C"], "conclusion": "A or not C", "num_steps": 6}
+{"premises": ["X or (Y and Z)", "not X", "W or not Y"], "conclusion": "W", "num_steps": 14}
+{"premises": ["(P and Q) or R", "not R", "not P"], "conclusion": "not R", "num_steps": 11}
+{"premises": ["X or Y", "not X or Z", "not Y or W", "not Z and not W"], "conclusion": "not (X or Y)", "num_steps": 16}
+{"premises": ["A and B", "C", "not not D"], "conclusion": "(A and D) or C", "num_steps": 4}
+{"premises": ["P and Q", "not not R"], "conclusion": "P and R", "num_steps": 6}
+{"premises": ["X and Y", "Z and W", "not not M"], "conclusion": "(Y and W) or M", "num_steps": 5}
+{"premises": ["A and B", "not not C"], "conclusion": "C or X", "num_steps": 4}
+{"premises": ["Y and Z"], "conclusion": "Y or Z", "num_steps": 6}
+{"premises": ["A and B", "not C", "C or (D and E)"], "conclusion": "A and D", "num_steps": 15}
+{"premises": ["M and N"], "conclusion": "N and (M or Z)", "num_steps": 7}
+{"premises": ["A", "B and C"], "conclusion": "A and C", "num_steps": 5}
+{"premises": ["X and (Y or Z)", "not Y or M", "not Z or N", "not M and not N"], "conclusion": "X", "num_steps": 15}
+{"premises": ["A and (B and C)", "X"], "conclusion": "C and X", "num_steps": 5}
+{"premises": ["M and N", "W or Y"], "conclusion": "M or Z", "num_steps": 6}
+{"premises": ["A or (B and C)", "not A", "D or not B", "not D"], "conclusion": "C", "num_steps": 16}
+{"premises": ["X and (Y or Z)", "not Y", "M or not Z", "W or not M"], "conclusion": "X and W", "num_steps": 16}
+{"premises": ["M and N", "W"], "conclusion": "(M and W) or Y", "num_steps": 6}
+{"premises": ["X and (Y or Z)", "not Y", "M or N"], "conclusion": "(X and Z) and (M or N)", "num_steps": 12}
+{"premises": ["X or Y", "Y or Z", "not X and not Y"], "conclusion": "Z", "num_steps": 16}
+{"premises": ["A and B", "C and D"], "conclusion": "A and B and C", "num_steps": 5}
+{"premises": ["P or Q", "not not R", "P and R", "Q and R"], "conclusion": "P and R or Q and R", "num_steps": 6}
+{"premises": ["X or Y", "not X or Z", "not Y or W", "not Z", "not W"], "conclusion": "X or Y", "num_steps": 11}
+{"premises": ["A and B", "not (C and D)"], "conclusion": "not C or not D", "num_steps": 17}
+{"premises": ["X and Y", "not not Z"], "conclusion": "Y or M", "num_steps": 5}
+{"premises": ["A and B", "C or not A", "not C and not D"], "conclusion": "not (X and not X)", "num_steps": 15}
+{"premises": ["A and (B or C)", "not B or not D", "not C or not E", "D and E"], "conclusion": "A", "num_steps": 14}
+{"premises": ["P", "Q and R"], "conclusion": "P and Q and R", "num_steps": 7}
+{"premises": ["not not X", "Y and Z"], "conclusion": "X or M and Z", "num_steps": 5}
+{"premises": ["(A and B) or (C and D)", "not A", "not C"], "conclusion": "not A", "num_steps": 15}
+{"premises": ["M and N", "not not W"], "conclusion": "(M or W) and N", "num_steps": 5}
+{"premises": ["X and Y", "not not Z", "M"], "conclusion": "X and Z and M", "num_steps": 4}
+{"premises": ["P or Q", "not P and not R", "Q and R"], "conclusion": "~", "num_steps": 8}
+{"premises": ["M or N", "not not W"], "conclusion": "(M or W) and (W or N)", "num_steps": 4}
+{"premises": ["A and B", "not C"], "conclusion": "A and (not C and B)", "num_steps": 16}
+{"premises": ["(X and Y) or (Z and W)", "X", "not Y"], "conclusion": "Z and W", "num_steps": 14}
+{"premises": ["M and N", "not B"], "conclusion": "N and M", "num_steps": 7}
+{"premises": ["A and (B or C)", "not B", "C and D", "not (A and D)"], "conclusion": "D", "num_steps": 13}
+{"premises": ["M and N", "not not (A or B)"], "conclusion": "N and (A or B)", "num_steps": 5}
+{"premises": ["X or Y", "X or Z", "not (Y and Z)"], "conclusion": "X", "num_steps": 17}
+{"premises": ["X or Y", "not X and not Z", "Y and M", "not M or W"], "conclusion": "Y and W", "num_steps": 12}
+{"premises": ["A and B", "C or D", "not C or not A", "not D or not B"], "conclusion": "not D", "num_steps": 17}
+{"premises": ["X or Y", "X and Z", "not Y or W", "not W"], "conclusion": "X and (X and Z)", "num_steps": 15}
+{"premises": ["A and B", "C or D", "not C and E", "D and F", "not F and G"], "conclusion": "A and B", "num_steps": 17}
+{"premises": ["X and (Y or Z)", "not Y", "Z and M", "not M"], "conclusion": "X and (Y or Z)", "num_steps": 11}
+{"premises": ["X", "not not Y", "Z or W"], "conclusion": "(X and Y) or N", "num_steps": 4}
+{"premises": ["A and B", "C and not not D"], "conclusion": "A or W", "num_steps": 6}
+{"premises": ["A and B", "C or D", "not C and E", "not D and F"], "conclusion": "A and E and F", "num_steps": 16}
+{"premises": ["P", "not not Q"], "conclusion": "Q or S", "num_steps": 4}
+{"premises": ["X", "Y and Z"], "conclusion": "Y or N", "num_steps": 4}
+{"premises": ["A and (B or C)", "not B", "C and D"], "conclusion": "A", "num_steps": 11}
+{"premises": ["X or Y", "not X or Z", "not Y or W", "not (Z and W)"], "conclusion": "not X or not Y", "num_steps": 14}
+{"premises": ["A and (B or C)", "not B and D", "C and E", "not E and F"], "conclusion": "A", "num_steps": 15}
+{"premises": ["X or Y", "not X and Z", "Y and W", "not W and M", "N or (X and Y)"], "conclusion": "N", "num_steps": 14}
+{"premises": ["A or B", "not A or C", "not B or D", "not C and not D"], "conclusion": "A or B", "num_steps": 16}
+{"premises": ["(P and Q) or R", "not R", "S or not P"], "conclusion": "(P and Q) and S", "num_steps": 11}
+{"premises": ["X or (Y and Z)", "not X", "M or not Y", "W or not Z"], "conclusion": "M and W", "num_steps": 14}
+{"premises": ["X or Y", "not X or Z", "not Y or W", "not Z and not W"], "conclusion": "not Z and not W", "num_steps": 14}
+{"premises": ["A and (B or C)", "not B or D", "not C or E", "not D and not E"], "conclusion": "A", "num_steps": 14}
+{"premises": ["not not X", "Y and Z"], "conclusion": "X or Z", "num_steps": 5}
+{"premises": ["X or Y", "X or Z", "not Y and not Z"], "conclusion": "X", "num_steps": 16}
+{"premises": ["A and (B or C)", "not B and D", "not C and E"], "conclusion": "A", "num_steps": 13}
+{"premises": ["A and B", "not not C"], "conclusion": "B and C", "num_steps": 5}
+{"premises": ["X", "Y and Z"], "conclusion": "(X or Y) and Z", "num_steps": 7}
+{"premises": ["X or Y", "not X or Z", "not Y or W", "not Z", "not W"], "conclusion": "M", "num_steps": 13}
+{"premises": ["not not X", "Y and Z", "W"], "conclusion": "(X or W) and (Z and W)", "num_steps": 5}
+{"premises": ["not not M", "N and W"], "conclusion": "(M or N) and W", "num_steps": 5}
+{"premises": ["A and B", "C and W"], "conclusion": "A or W", "num_steps": 6}
+{"premises": ["A and B", "not C", "C or (D and E)"], "conclusion": "(A and D) and (B and E)", "num_steps": 17}
+{"premises": ["A and B", "C or D", "not C or E", "not D or F"], "conclusion": "A", "num_steps": 13}
+{"premises": ["M and N", "not B"], "conclusion": "M or B", "num_steps": 6}
+{"premises": ["A and B", "C or D", "not C", "not (D and E)"], "conclusion": "A and not E", "num_steps": 14}
+{"premises": ["not not X", "Y and Z"], "conclusion": "X or W", "num_steps": 5}
+{"premises": ["A and B", "C or D", "not C and E", "not D and F"], "conclusion": "~", "num_steps": 15}
+{"premises": ["(A and B) or C", "not A or (D and E)", "not C"], "conclusion": "A and B and D and E", "num_steps": 19}
+{"premises": ["X or Y", "not not Z", "X and W"], "conclusion": "W or Z", "num_steps": 7}
+{"premises": ["A and (B or C)", "not B and not D", "C and E"], "conclusion": "(A and C) and E", "num_steps": 18}
+{"premises": ["(X and Y) or Z", "not Z", "W or M", "not W"], "conclusion": "(X and Y) and M", "num_steps": 13}
+{"premises": ["(P or Q) and (R or S)", "not P and not R", "Q and W"], "conclusion": "Q and S", "num_steps": 15}
+{"premises": ["X and Y", "not not Z", "W"], "conclusion": "X or W", "num_steps": 4}
+{"premises": ["M", "N and W"], "conclusion": "W or M", "num_steps": 4}
+{"premises": ["M", "N and W"], "conclusion": "M or Z", "num_steps": 6}
+{"premises": ["X and Y", "not not Z"], "conclusion": "Y or X", "num_steps": 5}
+{"premises": ["X or Y", "Y or Z", "not X and M", "not Y and N", "not Z and W"], "conclusion": "M", "num_steps": 16}
+{"premises": ["A and (B and C)", "X"], "conclusion": "A and (X or C)", "num_steps": 5}
+{"premises": ["P or Q", "not P and R", "Q and S", "not R or T"], "conclusion": "S and T", "num_steps": 9}
+{"premises": ["A or (B and C)", "not A", "D or E", "not D"], "conclusion": "(B and C) and E", "num_steps": 16}
+{"premises": ["X and (Y or Z)", "not (X and Y)", "M or N"], "conclusion": "X and Z and not Y and (M or N)", "num_steps": 15}
+{"premises": ["A and B", "C and not Y"], "conclusion": "A and C", "num_steps": 6}
+{"premises": ["A and B", "C and D"], "conclusion": "(A and D) or E", "num_steps": 4}
+{"premises": ["not not P", "Q and R"], "conclusion": "not not (P and R)", "num_steps": 4}
+{"premises": ["X and Y", "(not X or Z) and (not Y or W)", "not Z", "not W"], "conclusion": "not Z and not W", "num_steps": 17}
+{"premises": ["P", "not not Q"], "conclusion": "(P or R) and (Q or S)", "num_steps": 4}
+{"premises": ["A and B", "(C or D) and W", "not C"], "conclusion": "(A and D) and W", "num_steps": 12}
+{"premises": ["X or Y", "Y or Z", "not X and not Y", "Z and W", "not W or M", "not M"], "conclusion": "Z", "num_steps": 18}
+{"premises": ["X or Y", "not X or Z", "not Y or W", "not (Z and W)"], "conclusion": "~", "num_steps": 15}
+{"premises": ["P or Q", "not P and R", "Q and S", "not R and T"], "conclusion": "Q and S and T", "num_steps": 11}
+{"premises": ["X or (Y and Z)", "not X", "M or N"], "conclusion": "(Y and M) or (Y and N)", "num_steps": 11}
+{"premises": ["X and Y", "(not X or Z) and (not Y or W)", "not Z", "not W"], "conclusion": "(not X or Z) and (not Y or W)", "num_steps": 13}
+{"premises": ["P or Q", "not not R", "P and S"], "conclusion": "R and S or T", "num_steps": 4}
+{"premises": ["X and Y", "Z"], "conclusion": "(X and Z) or Y", "num_steps": 7}
+{"premises": ["X and Y", "not not Z", "M"], "conclusion": "(X and Z) or M", "num_steps": 5}
+{"premises": ["A and B", "not C or D", "C or E", "not D"], "conclusion": "B and E", "num_steps": 15}
+{"premises": ["A", "not not B"], "conclusion": "A and B", "num_steps": 4}
+{"premises": ["M and N", "not not (A and B)"], "conclusion": "M and (A and B)", "num_steps": 6}
+{"premises": ["(P and Q) or R", "not R", "not Q or S"], "conclusion": "P and S", "num_steps": 11}
+{"premises": ["X and Y", "Z or W", "not (X and Z)"], "conclusion": "Y and W", "num_steps": 11}
+{"premises": ["X and Y", "Y or Z", "not Z or W", "not W"], "conclusion": "Y and not Z", "num_steps": 12}
+{"premises": ["A and B", "not C", "C or D"], "conclusion": "(A and B) and (D and A)", "num_steps": 16}
+{"premises": ["A and B", "C or not A", "not C or D", "not B or not D"], "conclusion": "not C", "num_steps": 19}
+{"premises": ["W and N", "M"], "conclusion": "W and M", "num_steps": 5}
+{"premises": ["A and B", "C and not C"], "conclusion": "W", "num_steps": 6}
+{"premises": ["X or Y", "not X or Z", "not Y or W", "not Z", "not W"], "conclusion": "not X", "num_steps": 17}
+{"premises": ["(A and B) or (C and not D)", "A and B", "not C"], "conclusion": "B", "num_steps": 17}
+{"premises": ["A and B", "C and W"], "conclusion": "A or C", "num_steps": 6}
+{"premises": ["A and B", "not C"], "conclusion": "A or C", "num_steps": 5}
+{"premises": ["X and (Y or Z)", "not Y", "M or N"], "conclusion": "(X and Z and M) or (X and Z and N)", "num_steps": 17}
+{"premises": ["not not A", "B and C", "Y"], "conclusion": "A or Z", "num_steps": 4}
+{"premises": ["M", "not not N"], "conclusion": "(M or X) and (N or Y)", "num_steps": 4}
+{"premises": ["W and Z", "not not (A or B)"], "conclusion": "W and (A or B)", "num_steps": 6}
+{"premises": ["X and Y", "not not Z", "W"], "conclusion": "Z and Y or W", "num_steps": 4}
+{"premises": ["A and (B or C)", "not B and not C"], "conclusion": "not (A and (B or C))", "num_steps": 12}
+{"premises": ["M and N", "not W"], "conclusion": "M or W", "num_steps": 6}
+{"premises": ["A and (B or C)", "not B", "W"], "conclusion": "W and C", "num_steps": 12}
+{"premises": ["A or (B and C)", "not A", "W or not B", "not W"], "conclusion": "not (W or not B)", "num_steps": 14}
+{"premises": ["(A and B) or C", "not C", "D or not B"], "conclusion": "A and D", "num_steps": 12}
+{"premises": ["A and B", "C or D", "not C or not A", "not D or not B"], "conclusion": "not C and not D", "num_steps": 16}
+{"premises": ["A and B", "C and not N"], "conclusion": "A or W", "num_steps": 6}
+{"premises": ["X and Y", "(not X or Z) and (not Y or W)", "not Z or not W"], "conclusion": "X and Y", "num_steps": 15}
+{"premises": ["A and (B or C)", "not B and D", "C and E"], "conclusion": "E and D", "num_steps": 13}
+{"premises": ["X or Y", "not X or Z", "not Y or W", "not Z and not W"], "conclusion": "not not (not Z and not W)", "num_steps": 13}
+{"premises": ["(X and Y) or Z", "not Z", "Y or W", "not W"], "conclusion": "X and Y", "num_steps": 12}
+{"premises": ["A and B", "C or D", "not C or not A", "not D or not B"], "conclusion": "not (C or D)", "num_steps": 18}
+{"premises": ["(P and Q) or (R and S)", "not P or not R", "Q and R"], "conclusion": "Q and S", "num_steps": 13}
+{"premises": ["not not M", "N and W", "B"], "conclusion": "M or B", "num_steps": 4}
+{"premises": ["X and Y", "(Z or W) and M", "not Z"], "conclusion": "X and W and M", "num_steps": 16}
+{"premises": ["A and (B or C)", "not B", "not (C and A)"], "conclusion": "not (C and A)", "num_steps": 16}
+{"premises": ["P or Q", "not P and not R", "Q and S", "R or T"], "conclusion": "Q and T", "num_steps": 13}
+{"premises": ["X and (Y or Z)", "not Y", "M or N", "not M"], "conclusion": "X and Z and N", "num_steps": 18}
+{"premises": ["X or Y", "not not Z", "X and M"], "conclusion": "(M and Z) or N", "num_steps": 4}
+{"premises": ["A and B", "C and not not N"], "conclusion": "A and N", "num_steps": 6}
+{"premises": ["X and Y", "not X or Z", "not Y or W", "not (Z and W)"], "conclusion": "~", "num_steps": 10}
+{"premises": ["X or Y", "not X and Z", "Y and W", "not W or M"], "conclusion": "Z and M", "num_steps": 19}
+{"premises": ["A and (B or C)", "not B", "C and D"], "conclusion": "(A and C) and (A and D)", "num_steps": 10}
+{"premises": ["M and N", "not B"], "conclusion": "M or A", "num_steps": 6}
+{"premises": ["A", "B and C"], "conclusion": "(A or X) and (B or Y)", "num_steps": 4}
+{"premises": ["A and B", "C or D"], "conclusion": "B and (C or D)", "num_steps": 4}
+{"premises": ["A and B", "not not C"], "conclusion": "A and C or X", "num_steps": 4}
+{"premises": ["X and Y", "not not Z", "W"], "conclusion": "X and Z", "num_steps": 5}
+{"premises": ["X and Y", "(X and Z) or (Y and W)", "not Z"], "conclusion": "(Y and W) and X", "num_steps": 13}
+{"premises": ["A and (B or C)", "not B or not D", "C or not E", "D and E"], "conclusion": "C and E", "num_steps": 18}
+{"premises": ["A and B", "C and D"], "conclusion": "(A or X) and (D or Y)", "num_steps": 5}
+{"premises": ["W and N", "not not B"], "conclusion": "W and B", "num_steps": 6}
+{"premises": ["A and B", "C and D"], "conclusion": "A or C", "num_steps": 6}
+{"premises": ["X and Y", "not not Z", "W"], "conclusion": "(X or Z) and (W and Z)", "num_steps": 5}
+{"premises": ["(A and B) or (C and D)", "A or C", "not A", "M or N"], "conclusion": "((C and M) and D) or ((C and N) and D)", "num_steps": 14}
+{"premises": ["A and B", "not C", "C or (D and E)"], "conclusion": "A and B and D and E", "num_steps": 17}
+{"premises": ["(A and B) or C", "not C", "A and B and not X", "X or Y"], "conclusion": "Y and (A and B)", "num_steps": 12}
+{"premises": ["A and B", "C or D", "not C"], "conclusion": "(A and B) and (A and D)", "num_steps": 17}
+{"premises": ["X and Y", "not not Z", "W"], "conclusion": "(X or W) and (Z and W)", "num_steps": 5}
+{"premises": ["A and B", "C or W"], "conclusion": "B or N", "num_steps": 7}
+{"premises": ["P or Q", "not not R", "P and S"], "conclusion": "S and R", "num_steps": 7}
+{"premises": ["M or N", "M or W", "not M"], "conclusion": "N and W and not M", "num_steps": 24}
+{"premises": ["not not X", "Y and Z"], "conclusion": "(X or M) and (Y or N)", "num_steps": 5}
+{"premises": ["X or Y", "not X or Z", "not Y or M", "not Z and not M"], "conclusion": "N", "num_steps": 15}
+{"premises": ["P or Q", "not P or R", "not Q or R", "not R"], "conclusion": "~", "num_steps": 13}
+{"premises": ["M", "N and W"], "conclusion": "W and M", "num_steps": 5}
+{"premises": ["A and B", "C or D", "not C and E", "not D and F"], "conclusion": "A", "num_steps": 16}
+{"premises": ["not not A", "B and C"], "conclusion": "C or Y", "num_steps": 4}
+{"premises": ["A and B", "C or D"], "conclusion": "A or W", "num_steps": 6}
+{"premises": ["M or N", "M or (W and not W)", "not M"], "conclusion": "N and (A or B)", "num_steps": 17}
+{"premises": ["(X and Y) or Z", "not Z", "X and Y"], "conclusion": "(X and Y) and (X and Y)", "num_steps": 12}
+{"premises": ["X", "not not Y", "Z and W"], "conclusion": "Z and X", "num_steps": 4}
+{"premises": ["M and N", "A or B"], "conclusion": "M or C", "num_steps": 6}
+{"premises": ["P", "not not Q"], "conclusion": "(Q and P) or S", "num_steps": 4}
+{"premises": ["A and B", "not C", "C or (D and E)"], "conclusion": "B and E", "num_steps": 16}
+{"premises": ["A and (B and C)", "W"], "conclusion": "B", "num_steps": 7}
+{"premises": ["A and (B or C)", "not B", "D or not A"], "conclusion": "A and C", "num_steps": 11}
+{"premises": ["X or (Y and Z)", "not X", "Y and M", "Z and N"], "conclusion": "(Y and M) and (Z and N)", "num_steps": 11}
+{"premises": ["(X and Y) or Z", "not Z", "M or N", "not M", "W"], "conclusion": "X and W", "num_steps": 17}
+{"premises": ["A and B", "not C"], "conclusion": "B and not C", "num_steps": 16}
+{"premises": ["M and N", "(M and N) or (A and B)", "not A"], "conclusion": "N", "num_steps": 17}
+{"premises": ["X or (Y and Z)", "not X", "M or N", "not Y or not M"], "conclusion": "N", "num_steps": 14}
+{"premises": ["A and (B or C)", "not B and not C"], "conclusion": "W", "num_steps": 13}
+{"premises": ["(P or Q) and (R or S)", "not P", "not R"], "conclusion": "Q and S", "num_steps": 13}
+{"premises": ["M and (N or B)", "not N", "B and C"], "conclusion": "M", "num_steps": 18}
+{"premises": ["X or Y", "X or Z", "not X"], "conclusion": "Y and Z", "num_steps": 17}
+{"premises": ["X or Y", "X and Z", "Y and W", "not (Z and W)"], "conclusion": "~", "num_steps": 16}
+{"premises": ["A and B"], "conclusion": "A or W", "num_steps": 6}
+{"premises": ["P and Q", "R"], "conclusion": "(P and R) or Q", "num_steps": 6}
+{"premises": ["X and Y", "not not Z", "M"], "conclusion": "M or (Y and Z)", "num_steps": 4}
+{"premises": ["X and (Y or Z)", "not Y", "M or N", "not N"], "conclusion": "X and M", "num_steps": 16}
+{"premises": ["(A and B) or (C and D)", "A or C", "not A and not C"], "conclusion": "(A and B) or (C and D)", "num_steps": 14}
+{"premises": ["X or (Y and Z)", "not X or W", "not Y or not Z", "not W"], "conclusion": "N", "num_steps": 15}
+{"premises": ["X or Y", "not not Z", "X and W", "Y and W"], "conclusion": "Z and W", "num_steps": 7}
+{"premises": ["X and Y", "Y and Z", "not (X and Z) or W"], "conclusion": "Y and W", "num_steps": 12}
+{"premises": ["X and Y", "Y or Z", "not Z and W", "W or M", "not M and N"], "conclusion": "X and Y and W and N", "num_steps": 23}
+{"premises": ["X and Y", "not Z or W", "Z and M"], "conclusion": "W and M", "num_steps": 15}
+{"premises": ["A and B", "not not C"], "conclusion": "C or D", "num_steps": 4}
+{"premises": ["A and B", "C or D", "not C and E", "not D and F"], "conclusion": "C or D", "num_steps": 13}
+{"premises": ["A and B", "not C", "C or D"], "conclusion": "(A and B) and D", "num_steps": 18}
+{"premises": ["A and B", "not A or not C", "C or D"], "conclusion": "D and B", "num_steps": 19}
+{"premises": ["X and Y", "Z"], "conclusion": "Z or Y", "num_steps": 6}
+{"premises": ["X or (Y and Z)", "not X", "M or N"], "conclusion": "Y", "num_steps": 13}
+{"premises": ["M and N"], "conclusion": "N and (M or W)", "num_steps": 7}
+{"premises": ["A and B", "not not C"], "conclusion": "A or D", "num_steps": 4}
+{"premises": ["X", "Y and Z"], "conclusion": "Z", "num_steps": 6}
+{"premises": ["A and (B or C)", "not B or D", "not C or E", "not D and not E"], "conclusion": "B or C", "num_steps": 19}
+{"premises": ["A and B", "not C or D", "C and not D"], "conclusion": "A and B", "num_steps": 13}
+{"premises": ["not not X", "Y and Z"], "conclusion": "X or Y", "num_steps": 4}
+{"premises": ["A and B", "C or D", "not C and not E", "not D or F"], "conclusion": "A and B and D and F", "num_steps": 18}
+{"premises": ["M and (N or W)", "not N"], "conclusion": "M and W", "num_steps": 12}
+{"premises": ["A or B", "not A or C", "not B or C", "not C"], "conclusion": "not C", "num_steps": 15}
+{"premises": ["X and (Y or Z)", "M or N", "not Y and not M"], "conclusion": "X and Z and N", "num_steps": 18}
+{"premises": ["X or Y", "not not Z", "X and M", "Y and N"], "conclusion": "(M or Z) or (N or Z)", "num_steps": 8}
+{"premises": ["X and Y", "(Z or W) and M", "not (Y and Z)"], "conclusion": "W and M", "num_steps": 13}
+{"premises": ["(X and Y) or Z", "not Z", "W or not Y", "not W"], "conclusion": "X", "num_steps": 18}
+{"premises": ["P or Q", "not not R", "P and R", "Q and R"], "conclusion": "R", "num_steps": 6}
+{"premises": ["(A and B) or (C and M)", "A and B", "not C"], "conclusion": "A", "num_steps": 18}
+{"premises": ["X or Y", "Z and W", "not X or not Z", "not Y or not W"], "conclusion": "~", "num_steps": 17}
+{"premises": ["P and Q", "not not R"], "conclusion": "P and R or M", "num_steps": 4}
+{"premises": ["M and N", "not B"], "conclusion": "N and (M or B)", "num_steps": 7}
+{"premises": ["P or Q", "not P and R", "Q and S"], "conclusion": "(Q and R) and not P", "num_steps": 10}
+{"premises": ["A and B", "C", "not not D"], "conclusion": "(A and C) and D", "num_steps": 4}
+{"premises": ["P and Q", "R"], "conclusion": "Q and (P or R)", "num_steps": 7}
+{"premises": ["M or N", "not not W"], "conclusion": "(M or W) and (N or W)", "num_steps": 4}
+{"premises": ["(X or Y) and (Z or W)", "not X", "not Z"], "conclusion": "Y and W", "num_steps": 11}
+{"premises": ["X or Y", "not not Z", "X and W"], "conclusion": "(Z and W) or M", "num_steps": 4}
+{"premises": ["P or Q", "not P and not R", "Q and S", "R or T"], "conclusion": "T and S", "num_steps": 12}
+{"premises": ["X and Y", "Y or Z", "not Z or W", "not W and M"], "conclusion": "Y and M", "num_steps": 15}
+{"premises": ["X and Y", "Y and Z", "not (X and Z) or W"], "conclusion": "W and Y", "num_steps": 9}
+{"premises": ["M and N", "A"], "conclusion": "M and A", "num_steps": 6}
+{"premises": ["(P or Q) and (R or S)", "not P and not R", "Q and T", "S and U"], "conclusion": "Q and S", "num_steps": 15}
+{"premises": ["A and B", "C or D", "not C or E", "not D or F"], "conclusion": "E or F", "num_steps": 15}
+{"premises": ["X or Y", "not X or (Z and W)", "not Y or (M and N)"], "conclusion": "(Z and W) or (M and N)", "num_steps": 16}
+{"premises": ["A and B", "not C or D", "C and E", "not D"], "conclusion": "E", "num_steps": 14}
+{"premises": ["X", "not not Y", "Z"], "conclusion": "X and Y and Z", "num_steps": 3}
+{"premises": ["P or Q", "not not R"], "conclusion": "P or Q or R", "num_steps": 7}
+{"premises": ["A and B", "C or D", "not C and E", "not D and F"], "conclusion": "A and B", "num_steps": 16}
+{"premises": ["(A and B) or C", "not C", "B or M", "not M"], "conclusion": "A and B", "num_steps": 11}
+{"premises": ["A and B", "C and D"], "conclusion": "A or E", "num_steps": 4}
+{"premises": ["P and Q", "not not R"], "conclusion": "(P and R) or S", "num_steps": 4}
+{"premises": ["X and Y", "Z"], "conclusion": "not not (X and Z)", "num_steps": 6}
+{"premises": ["not not A", "B and C"], "conclusion": "A or C", "num_steps": 5}
+{"premises": ["X or (Y and Z)", "not X or M", "not Y or N", "not M and not N"], "conclusion": "W or not W", "num_steps": 17}
+{"premises": ["not not P", "Q or R", "Q and S"], "conclusion": "P and Q or R", "num_steps": 4}
+{"premises": ["A and B", "not C", "C or D"], "conclusion": "A and D", "num_steps": 14}
+{"premises": ["M and N", "not not W", "X"], "conclusion": "M and W or X", "num_steps": 4}
+{"premises": ["A and B", "C and D", "not (A and C) or (X and Y)"], "conclusion": "(X and Y) and B", "num_steps": 14}
+{"premises": ["X or Y", "Y or Z", "not X and M", "not Y and N", "not Z and W"], "conclusion": "M and N", "num_steps": 11}
+{"premises": ["A or (B and C)", "not A", "not B or W", "not C or W"], "conclusion": "(B and C) and W", "num_steps": 23}
+{"premises": ["W and N", "C"], "conclusion": "W and C", "num_steps": 5}
+{"premises": ["P or Q", "not P and R", "Q and S"], "conclusion": "(Q and R) and S", "num_steps": 11}
+{"premises": ["X or Y", "not (X and Z)", "not (Y and W)", "Z", "W"], "conclusion": "not (not X and not Y)", "num_steps": 12}
+{"premises": ["P or Q", "not P or R", "not Q or S", "not R and not S"], "conclusion": "~", "num_steps": 15}
+{"premises": ["M", "not not N"], "conclusion": "M and N", "num_steps": 4}
+{"premises": ["X or Y", "X or Z", "not Y or W", "not Z or M", "not (W and M)"], "conclusion": "X or N", "num_steps": 13}
+{"premises": ["X or Y", "X or Z", "not (Y and Z)"], "conclusion": "not (Z and not X)", "num_steps": 14}
+{"premises": ["M and N", "(M and N) or (A and B)", "not (A and B)"], "conclusion": "M and N", "num_steps": 13}
+{"premises": ["X and (Y or Z)", "not Y and not Z"], "conclusion": "X", "num_steps": 16}
+{"premises": ["X or (Y and Z)", "not X", "M and N"], "conclusion": "(Y and Z) and M", "num_steps": 13}
+{"premises": ["A and (B or C)", "not B and D", "C and E", "not (D and E)"], "conclusion": "A", "num_steps": 16}
+{"premises": ["X or Y", "Y or Z", "not X and M", "not Z and N", "not Y and W"], "conclusion": "M and N and W", "num_steps": 21}
+{"premises": ["X or Y", "X and Z", "not Y"], "conclusion": "X and Z", "num_steps": 16}
+{"premises": ["A or (B and C)", "not A or D", "not B or not C", "not D"], "conclusion": "not D", "num_steps": 16}
+{"premises": ["A and B", "not (C or D)"], "conclusion": "A and B and not C and not D", "num_steps": 19}
+{"premises": ["X and Y", "(not X or Z) and W", "not Z or (N and R)", "not N"], "conclusion": "W", "num_steps": 17}
+{"premises": ["(X and Y) or Z", "not Z", "not Y or W"], "conclusion": "X and W", "num_steps": 8}
+{"premises": ["A and B", "not not C"], "conclusion": "A and C or D", "num_steps": 4}
+{"premises": ["(A or B) and (C or D)", "not A and not C", "B and E", "D and F"], "conclusion": "F", "num_steps": 16}
+{"premises": ["(A and B) or C", "not C", "not A or not B", "W"], "conclusion": "~", "num_steps": 11}
+{"premises": ["(A and B) or (C and D)", "not A or X", "not C or Y", "not X", "not Y"], "conclusion": "(A and B) or (C and D)", "num_steps": 13}
+{"premises": ["M and (N or W)", "not N", "W and Z"], "conclusion": "M and (W and Z)", "num_steps": 13}
+{"premises": ["M", "not not N", "W"], "conclusion": "N or W", "num_steps": 4}
+{"premises": ["A and B", "C or D", "not C and not D"], "conclusion": "~", "num_steps": 13}
+{"premises": ["A and B", "C and (not not W)"], "conclusion": "A and W", "num_steps": 6}
+{"premises": ["A and (B or C)", "not B or not D", "D and E"], "conclusion": "(A and C) and E", "num_steps": 18}
+{"premises": ["A and B", "C or Y"], "conclusion": "A or Z", "num_steps": 6}
+{"premises": ["not not A", "B and C"], "conclusion": "B and A", "num_steps": 4}
+{"premises": ["P and Q", "R and S"], "conclusion": "P or S", "num_steps": 6}
+{"premises": ["A or B", "not not C", "A and D"], "conclusion": "D and C", "num_steps": 4}
+{"premises": ["P and Q", "not R"], "conclusion": "P or R", "num_steps": 6}
+{"premises": ["not not P", "Q and R"], "conclusion": "P and R", "num_steps": 5}
+{"premises": ["A and (B or C)", "not B or not D", "not C or not D"], "conclusion": "not D", "num_steps": 10}
+{"premises": ["P and Q", "R and S"], "conclusion": "S", "num_steps": 7}
+{"premises": ["A or (B and C)", "not A", "D or not B", "not D"], "conclusion": "Q", "num_steps": 10}
+{"premises": ["not (P and Q)", "P or R", "Q or S", "not R and not S"], "conclusion": "~", "num_steps": 12}
+{"premises": ["R or not S", "S and T", "not R and U"], "conclusion": "T and U", "num_steps": 13}
+{"premises": ["A or B", "not not C", "A and D"], "conclusion": "(C and D) or B", "num_steps": 4}
+{"premises": ["P and Q", "R and S"], "conclusion": "P and S", "num_steps": 6}
+{"premises": ["A and B", "C or D", "not A or not C", "not B or not D"], "conclusion": "A and B", "num_steps": 13}
+{"premises": ["P and Q", "R or S", "not P or not R", "not Q or not S"], "conclusion": "P and Q", "num_steps": 14}
+{"premises": ["P or (Q and R)", "not P and S", "not R or T"], "conclusion": "S and (Q and T)", "num_steps": 14}
+{"premises": ["A and (B or C)", "not B", "C and D", "not D"], "conclusion": "~", "num_steps": 8}
+{"premises": ["A or B", "not not C", "A and D"], "conclusion": "D or (C or D)", "num_steps": 6}
+{"premises": ["not not P", "Q and R"], "conclusion": "P and Q", "num_steps": 6}
+{"premises": ["not (P and Q)", "R or (P and Q)", "not R or S", "not S"], "conclusion": "S", "num_steps": 8}
+{"premises": ["P and (Q or R)", "not Q", "R and S", "not P or T"], "conclusion": "R and S and T", "num_steps": 13}
+{"premises": ["P and Q", "not R"], "conclusion": "P or Q", "num_steps": 6}
+{"premises": ["P and Q", "R or S"], "conclusion": "P or R", "num_steps": 6}
+{"premises": ["(P or Q) and R", "not P", "not Q and S"], "conclusion": "R and S", "num_steps": 10}
+{"premises": ["P", "Q and R"], "conclusion": "(P and Q) or R", "num_steps": 7}
+{"premises": ["(P and Q) or (R and not P)", "not Q"], "conclusion": "not P", "num_steps": 13}
+{"premises": ["not not P", "Q and R"], "conclusion": "P or Q", "num_steps": 4}
+{"premises": ["A", "B and C"], "conclusion": "C and A", "num_steps": 4}
+{"premises": ["not not P", "Q and R"], "conclusion": "P or R", "num_steps": 5}
+{"premises": ["A or B", "not not C", "A and D"], "conclusion": "(A or B) and (C and D)", "num_steps": 4}
+{"premises": ["P and (Q and R)", "S"], "conclusion": "P and S", "num_steps": 6}
+{"premises": ["P and Q", "not not R"], "conclusion": "P or R and Q", "num_steps": 5}
+{"premises": ["P and Q", "R or S", "not P or not R", "not Q or not S"], "conclusion": "not (not P and not Q)", "num_steps": 13}
+{"premises": ["A and (B and C)", "not not D"], "conclusion": "A and D", "num_steps": 5}
+{"premises": ["P and Q", "R and S"], "conclusion": "(P or R) and Q", "num_steps": 7}
+{"premises": ["A and B", "C and D"], "conclusion": "B or P", "num_steps": 5}
+{"premises": ["not not P", "Q and R"], "conclusion": "(P and Q) and R", "num_steps": 5}
+{"premises": ["A or B", "not not C"], "conclusion": "(A or C) and (B or C)", "num_steps": 4}
+{"premises": ["P and Q", "not R"], "conclusion": "P and not R", "num_steps": 6}
+{"premises": ["A and (B or C)", "not B"], "conclusion": "A and C", "num_steps": 10}
+{"premises": ["not not P", "Q and R"], "conclusion": "(P or Q) and R", "num_steps": 5}
+{"premises": ["P and Q", "(P and Q) or (R and S)", "not R"], "conclusion": "P", "num_steps": 18}
+{"premises": ["A and B", "C and A"], "conclusion": "B and C", "num_steps": 6}
+{"premises": ["P and Q", "(P and Q) or R", "not R"], "conclusion": "Q", "num_steps": 12}
+{"premises": ["A and (B and C)"], "conclusion": "A and C", "num_steps": 5}
+{"premises": ["P and Q", "not R"], "conclusion": "not R and P", "num_steps": 6}
+{"premises": ["A and B", "not C or D", "C or E", "not D"], "conclusion": "A and E", "num_steps": 12}
+{"premises": ["X or Y", "not X or Z", "not Y or W", "not Z and not W"], "conclusion": "not not (X or Y)", "num_steps": 13}
+{"premises": ["P", "Q and R"], "conclusion": "P and Q", "num_steps": 5}
+{"premises": ["(X and Y) or Z", "not Z", "X and (Y or W)"], "conclusion": "X and (Y and (Y or W))", "num_steps": 13}
+{"premises": ["(P and Q) and R"], "conclusion": "P or Q", "num_steps": 6}
+{"premises": ["A and B", "not not C"], "conclusion": "(A and C) or B", "num_steps": 4}
+{"premises": ["P and (Q and R)"], "conclusion": "Q", "num_steps": 6}
+{"premises": ["A or B", "not not C", "A and D"], "conclusion": "B or (C and D)", "num_steps": 4}
+{"premises": ["P", "Q and R"], "conclusion": "R", "num_steps": 6}
+{"premises": ["(R and S) or T", "not T", "R and (S or U)"], "conclusion": "S", "num_steps": 15}
+{"premises": ["A", "B and C"], "conclusion": "C", "num_steps": 6}
+{"premises": ["not not P", "Q and R"], "conclusion": "Q and P", "num_steps": 4}
+{"premises": ["P or (Q and R)", "not P or S", "not S"], "conclusion": "Q and R", "num_steps": 14}
+{"premises": ["P and (Q or R)", "not Q", "not R and S"], "conclusion": "S", "num_steps": 12}
+{"premises": ["A and B", "C and D"], "conclusion": "(A and C) and D", "num_steps": 5}
+{"premises": ["P", "Q and R"], "conclusion": "(P and Q) and R", "num_steps": 7}
+{"premises": ["not not A", "B and C"], "conclusion": "(A or D) and (B or E)", "num_steps": 5}
+{"premises": ["P and Q", "R and S"], "conclusion": "P or R", "num_steps": 5}
+{"premises": ["P", "Q and R"], "conclusion": "(P or Q) and R", "num_steps": 6}
+{"premises": ["A and (B or C)", "not B", "D or not A"], "conclusion": "A and C and D", "num_steps": 13}
+{"premises": ["P", "Q and R"], "conclusion": "P or Q", "num_steps": 5}
+{"premises": ["A and (B or C)", "not B", "C and D"], "conclusion": "A and D", "num_steps": 11}
+{"premises": ["A and (B or C)", "not B and D", "not C or E"], "conclusion": "A and E", "num_steps": 11}
+{"premises": ["(P and Q) or (R and S)", "not P or T", "not R or T", "not T"], "conclusion": "(P and Q) or (R and S)", "num_steps": 13}
+{"premises": ["P or Q", "not P and not R", "Q and S"], "conclusion": "S and not R", "num_steps": 8}
+{"premises": ["not (P and Q)", "R or (P and Q)", "not R or S", "not S"], "conclusion": "~", "num_steps": 9}
+{"premises": ["P or Q", "not P or R", "not Q or R", "not R"], "conclusion": "not Q", "num_steps": 11}
+{"premises": ["(X and Y) or Z", "not Z", "Y and W"], "conclusion": "X and W", "num_steps": 11}
+{"premises": ["not not P", "Q and R"], "conclusion": "(P and Q) or R", "num_steps": 5}
+{"premises": ["P or Q", "not P or R", "not Q or S", "not R and not S"], "conclusion": "R or S", "num_steps": 11}
+{"premises": ["(X and Y) or Z", "not Z", "Y and W"], "conclusion": "(X and W) and Y", "num_steps": 12}
+{"premises": ["A and B", "(A and B) or C", "not C or D", "not D"], "conclusion": "B", "num_steps": 13}
+{"premises": ["P and Q", "R and S"], "conclusion": "Q", "num_steps": 6}
+{"premises": ["A and (B and C)", "D"], "conclusion": "C or A", "num_steps": 5}
+{"premises": ["(P and Q) or (R and S)", "not P or T", "not R or U"], "conclusion": "T or U", "num_steps": 12}
+{"premises": ["P and (Q and R)"], "conclusion": "R", "num_steps": 6}
+{"premises": ["R and S", "(R and S) or T", "not T"], "conclusion": "R and S", "num_steps": 14}
+{"premises": ["P and (Q or R)", "not Q and S", "R and T"], "conclusion": "P and T", "num_steps": 13}
+{"premises": ["P or Q", "not P and R", "Q and not R"], "conclusion": "~", "num_steps": 16}
+{"premises": ["(P and Q) or (R and S)", "not P", "not R"], "conclusion": "not not ((P and Q) or (R and S))", "num_steps": 10}
+{"premises": ["P and Q", "R and S"], "conclusion": "P and R", "num_steps": 6}
+{"premises": ["A and (B or C)", "not B and D", "C and E"], "conclusion": "D and (A and E)", "num_steps": 12}
+{"premises": ["(P and Q) or (R and S)", "not P or T", "not R or U", "not T", "not U"], "conclusion": "~", "num_steps": 9}
+{"premises": ["A or (B and C)", "not A or D", "not D"], "conclusion": "B and (not A and C)", "num_steps": 11}
+{"premises": ["(P and Q) or (R and S)", "not P", "not R or T", "not T"], "conclusion": "(P and Q) or (R and S)", "num_steps": 12}
+{"premises": ["P and Q", "R or not P", "not R and S"], "conclusion": "Q and S", "num_steps": 13}
+{"premises": ["R and (S or T)", "not S", "not T"], "conclusion": "S or T", "num_steps": 13}
+{"premises": ["A or B", "not not C", "A and D", "B and D"], "conclusion": "C and D", "num_steps": 7}
+{"premises": ["(X and Y) or Z", "not Z", "not Y"], "conclusion": "not Z", "num_steps": 16}
+{"premises": ["P and Q", "R or S", "not P or not R", "not Q or not S"], "conclusion": "~", "num_steps": 9}
+{"premises": ["not not A", "B"], "conclusion": "A and B", "num_steps": 5}
+{"premises": ["A and (B or C)", "not B or D", "not C or E"], "conclusion": "A and (D or E)", "num_steps": 12}
+{"premises": ["P or (Q and R)", "not P or S", "not S"], "conclusion": "Q and R and not S", "num_steps": 13}
+{"premises": ["(P and Q) or R", "not R", "P and S"], "conclusion": "Q and S", "num_steps": 11}
+{"premises": ["(P and Q) and R"], "conclusion": "P or R", "num_steps": 7}
+{"premises": ["P and Q"], "conclusion": "P or R", "num_steps": 6}
+{"premises": ["A and (B or C)", "not B and not D", "C and D"], "conclusion": "~", "num_steps": 13}
+{"premises": ["not not (X and Y)", "Z"], "conclusion": "Y and Z", "num_steps": 5}
+{"premises": ["P", "Q and R"], "conclusion": "(P or Q) and Q", "num_steps": 6}
+{"premises": ["A and B", "C or not A", "not C and D"], "conclusion": "A and B and D", "num_steps": 17}
+{"premises": ["P and Q", "(P and Q) or R", "not R and not S"], "conclusion": "((P and Q) and not R) and not S", "num_steps": 14}
+{"premises": ["not not (P and Q)", "R or S"], "conclusion": "P or R", "num_steps": 6}
+{"premises": ["P and Q", "R or (not P and not Q)", "not R"], "conclusion": "not S and not T", "num_steps": 13}
+{"premises": ["A and B", "C and D"], "conclusion": "(A and C) or P", "num_steps": 4}
+{"premises": ["P and Q", "R"], "conclusion": "P and R", "num_steps": 6}
+{"premises": ["(A and B) and C", "D or E"], "conclusion": "(A and C) or F", "num_steps": 5}
+{"premises": ["(P and Q) or (R and S)", "not P and not R"], "conclusion": "(P and Q) or (R and S)", "num_steps": 13}
+{"premises": ["R or (P and Q)", "not R", "P and not S"], "conclusion": "P and not S", "num_steps": 12}
+{"premises": ["A and B", "C or not B"], "conclusion": "A and C", "num_steps": 10}
+{"premises": ["P", "Q and R"], "conclusion": "P or R", "num_steps": 6}
+{"premises": ["A or (B and C)", "not A", "D or E", "not D"], "conclusion": "E", "num_steps": 14}
+{"premises": ["not (X and Y)", "Z or (X and Y)", "not Z"], "conclusion": "not Z", "num_steps": 15}
+{"premises": ["A", "B or C"], "conclusion": "(A or B) and A", "num_steps": 4}
+{"premises": ["A or (B and C)", "not A", "D or not B"], "conclusion": "D or C", "num_steps": 14}
+{"premises": ["X and Y", "not Z or W", "Z or not Y"], "conclusion": "X and W", "num_steps": 14}
+{"premises": ["A or B", "not not C", "A and D"], "conclusion": "D or (C or B)", "num_steps": 6}
+{"premises": ["not not (P and Q)", "R and S"], "conclusion": "P or R", "num_steps": 4}
+{"premises": ["(X and Y) or Z", "X or W", "not W", "not Z"], "conclusion": "Y", "num_steps": 15}
+{"premises": ["P and Q", "R or not Q", "not R"], "conclusion": "P", "num_steps": 10}
+{"premises": ["P and Q", "R or S", "not R or T", "not S or U"], "conclusion": "(P and T) or (P and U)", "num_steps": 9}
+{"premises": ["P and Q", "R or S", "not R or not P", "not S or not Q"], "conclusion": "not (R or S)", "num_steps": 15}
+{"premises": ["P and Q", "not not R"], "conclusion": "P or R", "num_steps": 6}
+{"premises": ["A and (B or C)", "not B and D", "C and E"], "conclusion": "A and (D and E)", "num_steps": 11}
+{"premises": ["P and Q", "R or S", "not P or not R", "not Q or not S"], "conclusion": "R or S", "num_steps": 11}
+{"premises": ["P or Q", "not P and R", "Q and S"], "conclusion": "Q and S and R", "num_steps": 8}
+{"premises": ["P and Q", "R or S", "not R"], "conclusion": "P and S and Q", "num_steps": 8}
+{"premises": ["P and Q", "R or not P", "S or not Q"], "conclusion": "R and S", "num_steps": 11}
+{"premises": ["P and (Q or R)", "not Q", "not R"], "conclusion": "P", "num_steps": 10}
+{"premises": ["P and Q", "R or S", "not R or not P", "not S or not Q"], "conclusion": "~", "num_steps": 9}
+{"premises": ["(P or Q) and R", "not P and S", "T or not R"], "conclusion": "Q and R", "num_steps": 14}
+{"premises": ["P and (Q or R)", "not Q and not R"], "conclusion": "P", "num_steps": 12}
+{"premises": ["A or B", "A or C", "not B and not C"], "conclusion": "A", "num_steps": 12}
+{"premises": ["A and (B or C)", "not B", "not C and D"], "conclusion": "A and D", "num_steps": 13}
+{"premises": ["R or (P and Q)", "not R", "P and not Q"], "conclusion": "not R", "num_steps": 13}
+{"premises": ["P or (Q and R)", "not P", "S or not Q", "not S"], "conclusion": "S and R", "num_steps": 13}
+{"premises": ["P or (Q and R)", "not P", "S or T", "not S"], "conclusion": "Q and T", "num_steps": 12}
+{"premises": ["A and (B or C)", "not B and D", "not C or E"], "conclusion": "(A and E) and D", "num_steps": 11}
