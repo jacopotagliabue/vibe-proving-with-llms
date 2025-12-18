@@ -22,9 +22,34 @@ _
 
 - Lines before `_` are premises (no justification needed)
 - Lines after `_` are derived (must cite line numbers in parentheses)
-- Subproofs use `|` prefix for assumptions
 - `__` closes a subproof
 - Subproof references use range syntax: `(start-end)` means the subproof from line `start` to line `end`
+
+## Subproof Nesting Format (IMPORTANT)
+
+Subproofs are indicated by `|` prefixes. **For nested subproofs, concatenate the pipes WITHOUT spaces:**
+
+- Depth 1 (one level): `| formula`
+- Depth 2 (nested): `|| formula` (NOT `| | formula`)
+- Depth 3 (double nested): `||| formula` (NOT `| | | formula`)
+
+**CORRECT nested subproof format:**
+```
+4. | A
+5. || B
+6. || ~ (4,5)
+__
+7. | C (5-6)
+__
+8. D (4-7)
+```
+
+**INCORRECT format (DO NOT USE):**
+```
+4. | A
+5. | | B      <-- WRONG: space between pipes
+6. | | ~ (4,5)
+```
 
 ## Valid Inference Rules
 
@@ -86,6 +111,25 @@ __
 __
 8. C (1, 4-5, 6-7)
 ```
+
+### Nested Subproofs (Or Elimination with Indirect Proof inside)
+```
+1. A or B
+2. not A
+_
+3. | A
+4. || not B
+5. || ~ (2,3)
+__
+6. | B (4-5)
+__
+7. | B
+8. | B (7)
+__
+9. B (1, 3-6, 7-8)
+```
+
+Note: Line 4 uses `||` (double pipe, no space) because it's a subproof nested inside the subproof that started at line 3.
 
 ## Your Task
 
@@ -192,6 +236,31 @@ Extract B from A and B using And Elimination, then combine with C using And Intr
 _
 3. B (1)
 4. B and C (3,2)
+</proof>
+
+### Example 5: Nested Subproofs (De Morgan style)
+Premises: not A and not B
+Conclusion: not (A or B)
+
+<reasoning>
+To prove not (A or B), I'll use indirect proof: assume A or B, then derive a contradiction. Inside that, I'll use or-elimination which requires nested subproofs. Remember to use || for nested subproofs (no space between pipes).
+</reasoning>
+
+<proof>
+1. not A and not B
+_
+2. not A (1)
+3. not B (1)
+4. | A or B
+5. || A
+6. || ~ (2,5)
+__
+7. || B
+8. || ~ (3,7)
+__
+9. | ~ (4, 5-6, 7-8)
+__
+10. not (A or B) (4-9)
 </proof>
 
 Now generate your proof. Remember: output ONLY `<reasoning>...</reasoning>` followed by `<proof>...</proof>` with nothing else.

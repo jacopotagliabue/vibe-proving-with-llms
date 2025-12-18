@@ -300,6 +300,25 @@ def main(config: Config):
     metrics_history = []
     # Save generated proofs to the job-specific folder
     samples_log_path = job_log_path / "generated_proofs.jsonl"
+    metrics_path = job_log_path / "metrics.jsonl"
+
+    # Save job info at the start (so we can check config while training)
+    job_info_path = job_log_path / "job_info.json"
+    job_info = {
+        "job_id": job_id,
+        "model_name": config.model_name,
+        "dataset_paths": config.dataset_paths,
+        "num_examples": len(dataset),
+        "batch_size": config.batch_size,
+        "group_size": config.group_size,
+        "learning_rate": config.learning_rate,
+        "lora_rank": config.lora_rank,
+        "num_epochs": config.num_epochs,
+        "final_checkpoint": None,  # Will be updated at the end
+    }
+    with open(job_info_path, "w") as f:
+        json.dump(job_info, f, indent=2)
+    logger.info(f"Job info saved to {job_info_path}")
 
     for epoch in range(config.num_epochs):
         logger.info(f"=== Epoch {epoch + 1}/{config.num_epochs} ===")
@@ -487,6 +506,10 @@ def main(config: Config):
             }
             metrics_history.append(metrics)
 
+            # Write metrics incrementally (append mode)
+            with open(metrics_path, "a") as f:
+                f.write(json.dumps(metrics) + "\n")
+
             logger.info(
                 f"Step {global_step}: reward={mean_batch_reward:.3f}, "
                 f"success={success_rate:.1%}, time={elapsed:.1f}s, "
@@ -527,31 +550,15 @@ def main(config: Config):
     # Final weights are already saved via save_state above
     logger.info(f"Final weights available at {final_path}")
 
-    # Save metrics history to job-specific folder
-    metrics_path = job_log_path / "metrics.jsonl"
-    with open(metrics_path, "w") as f:
-        for m in metrics_history:
-            f.write(json.dumps(m) + "\n")
+    # Metrics already written incrementally, just log the paths
     logger.info(f"Metrics saved to {metrics_path}")
     logger.info(f"Generated proofs saved to {samples_log_path}")
 
-    # Save job info for reference
-    job_info_path = job_log_path / "job_info.json"
-    job_info = {
-        "job_id": job_id,
-        "model_name": config.model_name,
-        "dataset_paths": config.dataset_paths,
-        "num_examples": len(dataset),
-        "batch_size": config.batch_size,
-        "group_size": config.group_size,
-        "learning_rate": config.learning_rate,
-        "lora_rank": config.lora_rank,
-        "num_epochs": config.num_epochs,
-        "final_checkpoint": final_path,
-    }
+    # Update job info with final checkpoint
+    job_info["final_checkpoint"] = final_path
     with open(job_info_path, "w") as f:
         json.dump(job_info, f, indent=2)
-    logger.info(f"Job info saved to {job_info_path}")
+    logger.info(f"Job info updated with final checkpoint")
 
     logger.info("Training completed!")
 
