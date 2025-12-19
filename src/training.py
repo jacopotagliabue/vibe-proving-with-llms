@@ -19,6 +19,7 @@ Usage:
 import json
 import logging
 import os
+import random
 import re
 import time
 from concurrent.futures import Future
@@ -81,6 +82,7 @@ class Config:
     save_every: int = 10
     max_tokens: int = 4096
     num_epochs: int = 1
+    seed: int = 42  # Random seed for reproducibility
 
 
 def load_dataset(paths: list[str]) -> list[dict]:
@@ -230,6 +232,10 @@ def main(config: Config):
         format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     )
 
+    # Set random seed for reproducibility
+    random.seed(config.seed)
+    logger.info(f"Random seed set to {config.seed}")
+
     # Ensure API key is set
     api_key = os.environ.get("TINKER_API_KEY")
     if not api_key:
@@ -314,6 +320,7 @@ def main(config: Config):
         "learning_rate": config.learning_rate,
         "lora_rank": config.lora_rank,
         "num_epochs": config.num_epochs,
+        "seed": config.seed,
         "final_checkpoint": None,  # Will be updated at the end
     }
     with open(job_info_path, "w") as f:
@@ -321,7 +328,9 @@ def main(config: Config):
     logger.info(f"Job info saved to {job_info_path}")
 
     for epoch in range(config.num_epochs):
-        logger.info(f"=== Epoch {epoch + 1}/{config.num_epochs} ===")
+        # Shuffle dataset at the start of each epoch
+        random.shuffle(dataset)
+        logger.info(f"=== Epoch {epoch + 1}/{config.num_epochs} (shuffled) ===")
 
         for batch_idx in range(n_batches):
             t_start = time.time()
