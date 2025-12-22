@@ -14,6 +14,11 @@ The diagram illustrates how all the main pieces of the project come together:
 - **Dataset creation** (left), where manually curated and LLM-generated proofs (first validated by the proof checker, in blue) are combined into a training dataset for reinforcement learning;
 - **RL loop** (right), where a model learns to generate proofs by receiving binary reward from the proof checker.
 
+Read the blog posts for background info, context and detailed explanation on the workflow:
+
+* [Part 1](https://towardsdatascience.com/understanding-vibe-proving-part-1/): Understanding Vibe Proving
+* Part 2: Coming Soon!
+
 Acknowledgements: the code in this repository has been generated with the help of Claude Code ("Resistance is futile"). Personally, this repo is the first real attempt I made at using LLMs to write the majority of the code as a first stab, and then intervening by cleaning things up, simplifying, and mostly adding / refining tests to build confidence in the overall correctness of the implementation.
 
 ## Setup
