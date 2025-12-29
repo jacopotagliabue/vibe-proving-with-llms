@@ -4,7 +4,7 @@ Playground for the TDS series on LLMs and proofs: train your own LLMs to generat
 
 ## Overview
 
-This repository contains code and examples for building a proof checker and training a proof generator from scratch, as described in the TDS series on LLMs and proofs (link TBC).
+This repository contains code and examples for building a proof checker and training a proof generator from scratch, as described in the TDS series on [LLMs](https://towardsdatascience.com/understanding-vibe-proving-part-1/) and [proofs](https://towardsdatascience.com/implementing-vibe-proving-with-rl/).
 
 ![RL Training Loop](img/rl_loop.jpg)
 
@@ -17,7 +17,7 @@ The diagram illustrates how all the main pieces of the project come together:
 Read the blog posts for background info, context and detailed explanation on the workflow:
 
 * [Part 1](https://towardsdatascience.com/understanding-vibe-proving-part-1/): Understanding Vibe Proving
-* Part 2: Coming Soon!
+* [Part 2](https://towardsdatascience.com/implementing-vibe-proving-with-rl/): Implementing Vibe Proving with Reinforcement Learning
 
 Acknowledgements: the code in this repository has been generated with the help of Claude Code ("Resistance is futile"). Personally, this repo is the first real attempt I made at using LLMs to write the majority of the code as a first stab, and then intervening by cleaning things up, simplifying, and mostly adding / refining tests to build confidence in the overall correctness of the implementation.
 
@@ -79,7 +79,7 @@ cd src
 uv run python proof_checker_playground.py
 ```
 
-Note that we showcase only a few simple proofs, mostly to highlight how the proof checker class works. We refer the reader to the tests for a more comprehensive set of examples!
+Note that we showcase only a few simple proofs, mostly to highlight how the proof checker class works. We refer the reader to the tests for a more comprehensive set of examples.
 
 ### Run the tests
 
